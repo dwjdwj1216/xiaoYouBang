@@ -9,12 +9,12 @@
 #import "TLDiscoverViewController.h"
 #import "TLDiscoverHelper.h"
 #import "TLSearchController.h"
-
+#import "JobCircleViewController.h"
 @interface TLDiscoverViewController ()
 
 @property (nonatomic, strong) TLSearchController *searchController;
 @property (nonatomic, strong) TLDiscoverHelper *discoverHelper;
-
+@property (nonatomic, strong) JobCircleViewController *jobCircleVC;
 @end
 
 @implementation TLDiscoverViewController
@@ -32,6 +32,17 @@
     
     [self.navigationItem setRightBarButtonItem:rightBarButtonItem];
 }
+-(void)viewWillAppear:(BOOL)animated{
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor blackColor]}];
+    [self.navigationController.navigationBar setTintColor:[UIColor colorWithRed:66.0/255.0 green:189.0/255.0 blue:86.0/255.0 alpha:1]];
+
+}
+
+-(void)viewWillDisappear:(BOOL)animated{
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+
+}
+
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     return 20;
 }
@@ -39,60 +50,34 @@
 -(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
     UILabel *label = [[UILabel alloc]init];
     label.text = @"";
+    label.font = [UIFont systemFontOfSize:12];
+    label.textColor = [UIColor colorWithRed:120.0/255.0 green:120.0/255.0 blue:120.0/255.5 alpha:1];
     if (section == 0) {
-        label.text = @"职业圈";
+        label.text = @"     职业圈";
     }else if(section == 1){
-        label.text = @"校友圈";
+        label.text = @"     校友圈";
     }else if (section == 2){
-        label.text = @"兴趣圈";
+        label.text = @"     兴趣圈";
     }
     return label;
 }
 
-/*
+
 #pragma mark - Delegate - 
 //MARK: UITableViewDelegate
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     TLMenuItem *item = [self.data[indexPath.section] objectAtIndex:indexPath.row];
-    if ([item.title isEqualToString:@"朋友圈"]) {
+    if (indexPath.section == 0) {
+        self.jobCircleVC.name = item.title;
         [self setHidesBottomBarWhenPushed:YES];
-        [self.navigationController pushViewController:self.momentsVC animated:YES];
+        [self.navigationController pushViewController:self.jobCircleVC animated:YES];
         [self setHidesBottomBarWhenPushed:NO];
     }
-    if ([item.title isEqualToString:@"扫一扫"]) {
-        TLScanningViewController *scannerVC = [[TLScanningViewController alloc] init];
-        [self setHidesBottomBarWhenPushed:YES];
-        [self.navigationController pushViewController:scannerVC animated:YES];
-        [self setHidesBottomBarWhenPushed:NO];
-    }
-    else if ([item.title isEqualToString:@"摇一摇"]) {
-        TLShakeViewController *shakeVC = [[TLShakeViewController alloc] init];
-        [self setHidesBottomBarWhenPushed:YES];
-        [self.navigationController pushViewController:shakeVC animated:YES];
-        [self setHidesBottomBarWhenPushed:NO];
-    }
-    else if ([item.title isEqualToString:@"漂流瓶"]) {
-        TLBottleViewController *bottleVC = [[TLBottleViewController alloc] init];
-        [self setHidesBottomBarWhenPushed:YES];
-        [self.navigationController pushViewController:bottleVC animated:YES];
-        [self setHidesBottomBarWhenPushed:NO];
-    }
-    else if ([item.title isEqualToString:@"购物"]) {
-        TLShoppingViewController *shoppingVC = [[TLShoppingViewController alloc] init];
-        [self setHidesBottomBarWhenPushed:YES];
-        [self.navigationController pushViewController:shoppingVC animated:YES];
-        [self setHidesBottomBarWhenPushed:NO];
-    }
-    else if ([item.title isEqualToString:@"游戏"]) {
-        TLGameViewController *gameVC = [[TLGameViewController alloc] init];
-        [self setHidesBottomBarWhenPushed:YES];
-        [self.navigationController pushViewController:gameVC animated:YES];
-        [self setHidesBottomBarWhenPushed:NO];
-    }
+    
     [super tableView:tableView didSelectRowAtIndexPath:indexPath];
 }
-*/
+
 #pragma mark - Event Response
 - (void)rightBarButtonDown:(UIBarButtonItem *)sender
 {
@@ -100,6 +85,21 @@
 }
 
 #pragma mark - # Getter -
+
+-(JobCircleViewController *)jobCircleVC{
+    if (!_jobCircleVC) {
+        _jobCircleVC = [[JobCircleViewController alloc]init];
+    }
+    return _jobCircleVC;
+}
+
+-(CircleSearchViewcontroller *)searchVC{
+    if (!_searchVC) {
+        _searchVC = [[CircleSearchViewcontroller alloc]init];
+    }
+    return _searchVC;
+}
+
 - (TLSearchController *) searchController
 {
     if (_searchController == nil) {
@@ -115,7 +115,7 @@
 //MARK: UISearchBarDelegate
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar
 {
-    [self.searchVC setFriendsData:[TLFriendHelper sharedFriendHelper].friendsData];
+    [self.searchVC setCircleData:self.discoverHelper.circleData];
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:YES];
 }
 
@@ -127,7 +127,7 @@
 - (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar
 {
     [self.tabBarController.tabBar setHidden:NO];
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:YES];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:YES];
 }
 
 - (void)searchBarBookmarkButtonClicked:(UISearchBar *)searchBar

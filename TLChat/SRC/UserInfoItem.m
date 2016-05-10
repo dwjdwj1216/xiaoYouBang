@@ -9,6 +9,7 @@
 #import "UserInfoItem.h"
 
 @implementation UserInfoItem
+
 + (UserInfoItem *) createMenuWithIconPath:(NSString *)iconPath name:(NSString *)name fromAndType:(NSString *)fromAndType{
     UserInfoItem *item = [[UserInfoItem alloc]init];
     item.iconPath = iconPath;

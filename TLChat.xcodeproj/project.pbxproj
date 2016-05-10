@@ -249,6 +249,79 @@
 		E53D0F501CCDE58100A46AF5 /* ShareCellFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F4F1CCDE58100A46AF5 /* ShareCellFooter.m */; };
 		E53D0F5A1CCE571500A46AF5 /* CompanyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F591CCE571500A46AF5 /* CompanyListViewController.m */; };
 		E53D0F5D1CCF618600A46AF5 /* CompanyListHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F5C1CCF618600A46AF5 /* CompanyListHelper.m */; };
+		E53D0F641CCF9B7900A46AF5 /* SchoolListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F631CCF9B7900A46AF5 /* SchoolListViewController.m */; };
+		E53D0F671CCF9B9B00A46AF5 /* SchoolListHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F661CCF9B9B00A46AF5 /* SchoolListHelper.m */; };
+		E53D0F6D1CCFA02E00A46AF5 /* CompanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F6C1CCFA02E00A46AF5 /* CompanyViewController.m */; };
+		E53D0F701CCFABAF00A46AF5 /* CompanyViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F6F1CCFABAF00A46AF5 /* CompanyViewHelper.m */; };
+		E53D0F731CCFAE6F00A46AF5 /* CompanyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F721CCFAE6F00A46AF5 /* CompanyInfo.m */; };
+		E53D0F761CD0CB1300A46AF5 /* CompanyInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F751CD0CB1300A46AF5 /* CompanyInfoCell.m */; };
+		E53D0F7A1CD0F3E400A46AF5 /* CompanyNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F791CD0F3E400A46AF5 /* CompanyNewController.m */; };
+		E53D0F7D1CD0F51A00A46AF5 /* CompanyNew.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F7C1CD0F51A00A46AF5 /* CompanyNew.m */; };
+		E53D0F801CD0F59E00A46AF5 /* CompanyNewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F7F1CD0F59E00A46AF5 /* CompanyNewCell.m */; };
+		E53D0F831CD0F7D700A46AF5 /* CompanyNewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F821CD0F7D700A46AF5 /* CompanyNewHelper.m */; };
+		E53D0F871CD1A3DF00A46AF5 /* CompanyTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F861CD1A3DF00A46AF5 /* CompanyTrendViewController.m */; };
+		E53D0F8A1CD1A65E00A46AF5 /* TrendPic.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F891CD1A65E00A46AF5 /* TrendPic.m */; };
+		E53D0F8D1CD1A76500A46AF5 /* CompanyTrendHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F8C1CD1A76500A46AF5 /* CompanyTrendHelper.m */; };
+		E53D0F931CD1A90C00A46AF5 /* TrendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F921CD1A90C00A46AF5 /* TrendCell.m */; };
+		E53D0F971CD1B02600A46AF5 /* CompanyMarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F961CD1B02600A46AF5 /* CompanyMarkViewController.m */; };
+		E53D0F9A1CD1B73100A46AF5 /* ButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F991CD1B73100A46AF5 /* ButtonCell.m */; };
+		E53D0F9D1CD1E20C00A46AF5 /* ContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F9C1CD1E20C00A46AF5 /* ContentCell.m */; };
+		E53D0FA01CD1E23700A46AF5 /* ContentCellHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0F9F1CD1E23700A46AF5 /* ContentCellHelper.m */; };
+		E53D0FA31CD1E27F00A46AF5 /* ContentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FA21CD1E27F00A46AF5 /* ContentItem.m */; };
+		E53D0FA71CD1F74400A46AF5 /* NewMarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FA61CD1F74400A46AF5 /* NewMarkViewController.m */; };
+		E53D0FAE1CD2389400A46AF5 /* StarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FAD1CD2389400A46AF5 /* StarRatingView.m */; };
+		E53D0FB21CD2EB0A00A46AF5 /* ShareExperienceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FB11CD2EB0A00A46AF5 /* ShareExperienceViewController.m */; };
+		E53D0FB51CD2F02800A46AF5 /* ShareExperienceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FB41CD2F02800A46AF5 /* ShareExperienceCell.m */; };
+		E53D0FB81CD301B400A46AF5 /* ShareExperienceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FB71CD301B400A46AF5 /* ShareExperienceItem.m */; };
+		E53D0FBB1CD3081000A46AF5 /* ShareExperienceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FBA1CD3081000A46AF5 /* ShareExperienceHelper.m */; };
+		E53D0FBE1CD32E6600A46AF5 /* NewShareExperienceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FBD1CD32E6600A46AF5 /* NewShareExperienceViewController.m */; };
+		E53D0FC11CD397B900A46AF5 /* UIViewLinkmanTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FC01CD397B900A46AF5 /* UIViewLinkmanTouch.m */; };
+		E53D0FC41CD39B2300A46AF5 /* ShareDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FC31CD39B2300A46AF5 /* ShareDetailViewController.m */; };
+		E53D0FC71CD45EF800A46AF5 /* JobCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FC61CD45EF800A46AF5 /* JobCircleViewController.m */; };
+		E53D0FD11CD48B9100A46AF5 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FD01CD48B9100A46AF5 /* HMSegmentedControl.m */; };
+		E53D0FD51CD492A800A46AF5 /* CircleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FD41CD492A800A46AF5 /* CircleItem.m */; };
+		E53D0FD81CD4944F00A46AF5 /* CircleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FD71CD4944F00A46AF5 /* CircleHelper.m */; };
+		E53D0FDB1CD49F0A00A46AF5 /* CircleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FDA1CD49F0A00A46AF5 /* CircleCell.m */; };
+		E53D0FDF1CD4C13A00A46AF5 /* AttentionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FDE1CD4C13A00A46AF5 /* AttentionViewController.m */; };
+		E53D0FE21CD4C2D000A46AF5 /* AttentionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FE11CD4C2D000A46AF5 /* AttentionHelper.m */; };
+		E53D0FE61CD4F27A00A46AF5 /* JobSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FE51CD4F27A00A46AF5 /* JobSearchViewController.m */; };
+		E53D0FE91CD4F73E00A46AF5 /* ListHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FE81CD4F73E00A46AF5 /* ListHelper.m */; };
+		E53D0FEC1CD4F8ED00A46AF5 /* JobList.json in Resources */ = {isa = PBXBuildFile; fileRef = E53D0FEB1CD4F8ED00A46AF5 /* JobList.json */; };
+		E53D0FF01CD4FC7B00A46AF5 /* Job.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FEF1CD4FC7B00A46AF5 /* Job.m */; };
+		E53D0FF41CD5987400A46AF5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FF31CD5987400A46AF5 /* DetailViewController.m */; };
+		E53D0FF71CD5A18700A46AF5 /* CommentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FF61CD5A18700A46AF5 /* CommentItem.m */; };
+		E53D0FFA1CD5A21600A46AF5 /* CommentHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FF91CD5A21600A46AF5 /* CommentHelper.m */; };
+		E53D0FFD1CD5A36000A46AF5 /* CommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FFC1CD5A36000A46AF5 /* CommentCell.m */; };
+		E53D10001CD5AB7700A46AF5 /* DetailContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D0FFF1CD5AB7700A46AF5 /* DetailContentCell.m */; };
+		E53D100C1CD5E14000A46AF5 /* DetailBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D100B1CD5E14000A46AF5 /* DetailBaseViewController.m */; };
+		E53D10101CD5F99F00A46AF5 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D100F1CD5F99F00A46AF5 /* CollectionViewController.m */; };
+		E53D10131CD5F9DB00A46AF5 /* CollectionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D10121CD5F9DB00A46AF5 /* CollectionHelper.m */; };
+		E53D10171CD5FCD200A46AF5 /* TieziViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D10161CD5FCD200A46AF5 /* TieziViewController.m */; };
+		E53D101A1CD5FCFD00A46AF5 /* TieziHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D10191CD5FCFD00A46AF5 /* TieziHelper.m */; };
+		E53D10211CD606B600A46AF5 /* MessageNotifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D10201CD606B600A46AF5 /* MessageNotifyViewController.m */; };
+		E53D10241CD606DB00A46AF5 /* MessageNotifyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D10231CD606DB00A46AF5 /* MessageNotifyHelper.m */; };
+		E53D10271CD6093000A46AF5 /* SettingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D10261CD6093000A46AF5 /* SettingHelper.m */; };
+		E53D102B1CD60B4600A46AF5 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D102A1CD60B4600A46AF5 /* SettingViewController.m */; };
+		E53D10321CD6106800A46AF5 /* NewTieziViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D10311CD6106800A46AF5 /* NewTieziViewController.m */; };
+		E53D10361CD61FAE00A46AF5 /* TLMomentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D10351CD61FAE00A46AF5 /* TLMomentsViewController.m */; };
+		E53D10391CD61FF600A46AF5 /* TLMomentsViewController+TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D10381CD61FF600A46AF5 /* TLMomentsViewController+TableView.m */; };
+		E53D103C1CD6202200A46AF5 /* TLMomentsViewController+Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D103B1CD6202200A46AF5 /* TLMomentsViewController+Proxy.m */; };
+		E53D10401CD6205600A46AF5 /* TLMomentBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D103F1CD6205600A46AF5 /* TLMomentBaseCell.m */; };
+		E53D10431CD6207B00A46AF5 /* TLMomentHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D10421CD6207B00A46AF5 /* TLMomentHeaderCell.m */; };
+		E53D10461CD620B100A46AF5 /* TLMomentImagesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D10451CD620B100A46AF5 /* TLMomentImagesCell.m */; };
+		E53D104A1CD620F700A46AF5 /* TLMomentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D10491CD620F700A46AF5 /* TLMomentDetailViewController.m */; };
+		E53D104E1CD6216900A46AF5 /* TLMomentBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D104D1CD6216900A46AF5 /* TLMomentBaseView.m */; };
+		E53D10511CD621A400A46AF5 /* TLMomentImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D10501CD621A400A46AF5 /* TLMomentImageView.m */; };
+		E53D10551CD621F900A46AF5 /* TLMomentMultiImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D10541CD621F900A46AF5 /* TLMomentMultiImageView.m */; };
+		E53D10581CD6222500A46AF5 /* TLMomentDetailTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D10571CD6222500A46AF5 /* TLMomentDetailTextView.m */; };
+		E53D105B1CD6225500A46AF5 /* TLMomentDetailImagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D105A1CD6225500A46AF5 /* TLMomentDetailImagesView.m */; };
+		E53D105F1CD6229300A46AF5 /* TLMomentExtensionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D105E1CD6229300A46AF5 /* TLMomentExtensionView.m */; };
+		E53D10621CD622E400A46AF5 /* TLMomentExtensionView+TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D10611CD622E400A46AF5 /* TLMomentExtensionView+TableView.m */; };
+		E53D10651CD6231700A46AF5 /* TLMomentExtensionLikedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D10641CD6231700A46AF5 /* TLMomentExtensionLikedCell.m */; };
+		E53D10681CD6233A00A46AF5 /* TLMomentExtensionCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D10671CD6233A00A46AF5 /* TLMomentExtensionCommentCell.m */; };
+		E53D106C1CD6564F00A46AF5 /* CommentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D106B1CD6564F00A46AF5 /* CommentBar.m */; };
+		E53D10701CD6E0A100A46AF5 /* UIView+CLKeyboardOffsetView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D106F1CD6E0A100A46AF5 /* UIView+CLKeyboardOffsetView.m */; };
+		E53D10781CD6EA4D00A46AF5 /* CircleSearchViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D10771CD6EA4D00A46AF5 /* CircleSearchViewcontroller.m */; };
 		E5792F371CC8C5E200AF5BBC /* TLJobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5792F361CC8C5E200AF5BBC /* TLJobViewController.m */; };
 		E5792F3A1CC8FF1300AF5BBC /* TLJobViewController+Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5792F391CC8FF1300AF5BBC /* TLJobViewController+Delegate.m */; };
 		E5792F4B1CC9028F00AF5BBC /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5792F3E1CC9028F00AF5BBC /* TAAbstractDotView.m */; };
@@ -266,7 +339,6 @@
 		E5792F661CC9ED4200AF5BBC /* TLBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5792F651CC9ED4200AF5BBC /* TLBannerCell.m */; };
 		E5792F6F1CCA59E800AF5BBC /* TLMineHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5792F6E1CCA59E800AF5BBC /* TLMineHeaderView.m */; };
 		E5792F751CCA72D100AF5BBC /* TLMineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5792F741CCA72D100AF5BBC /* TLMineTableViewController.m */; };
-		E5792F781CCA739800AF5BBC /* TLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5792F771CCA739800AF5BBC /* TLMineViewController.m */; };
 		E599B7A51CCC537E00692780 /* TLScannerBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = E599B79C1CCC537E00692780 /* TLScannerBackgroundView.m */; };
 		E599B7A61CCC537E00692780 /* TLScannerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E599B79E1CCC537E00692780 /* TLScannerButton.m */; };
 		E599B7A71CCC537E00692780 /* TLScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E599B7A01CCC537E00692780 /* TLScannerView.m */; };
@@ -275,6 +347,8 @@
 		E599B7AE1CCC598600692780 /* ShareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E599B7AD1CCC598600692780 /* ShareCell.m */; };
 		E599B7B11CCC5F9100692780 /* UserInfoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E599B7B01CCC5F9100692780 /* UserInfoItem.m */; };
 		E599B7BA1CCCF02400692780 /* ShareHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E599B7B91CCCF02400692780 /* ShareHelper.m */; };
+		E5BB0D791CD7870F0001FD05 /* PositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB0D781CD7870F0001FD05 /* PositionViewController.m */; };
+		E5BB0D7C1CD7878E0001FD05 /* PositionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB0D7B1CD7878E0001FD05 /* PositionHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -317,7 +391,7 @@
 		C20907481C97ED7300AB87A5 /* SystemEmoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SystemEmoji.json; sourceTree = "<group>"; };
 		C20907521C97F15200AB87A5 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		C20907541C981D5F00AB87A5 /* TLEventStatistics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLEventStatistics.h; sourceTree = "<group>"; };
-		C2097EE31C52326500163B5C /* TLChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2097EE31C52326500163B5C /* 校友邦.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "校友邦.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2097EE71C52326500163B5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2097EF71C52326500163B5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2097EFC1C52326500163B5C /* TLChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -788,6 +862,151 @@
 		E53D0F591CCE571500A46AF5 /* CompanyListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyListViewController.m; sourceTree = "<group>"; };
 		E53D0F5B1CCF618600A46AF5 /* CompanyListHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyListHelper.h; sourceTree = "<group>"; };
 		E53D0F5C1CCF618600A46AF5 /* CompanyListHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyListHelper.m; sourceTree = "<group>"; };
+		E53D0F621CCF9B7900A46AF5 /* SchoolListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolListViewController.h; sourceTree = "<group>"; };
+		E53D0F631CCF9B7900A46AF5 /* SchoolListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolListViewController.m; sourceTree = "<group>"; };
+		E53D0F651CCF9B9B00A46AF5 /* SchoolListHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolListHelper.h; sourceTree = "<group>"; };
+		E53D0F661CCF9B9B00A46AF5 /* SchoolListHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolListHelper.m; sourceTree = "<group>"; };
+		E53D0F6B1CCFA02E00A46AF5 /* CompanyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyViewController.h; sourceTree = "<group>"; };
+		E53D0F6C1CCFA02E00A46AF5 /* CompanyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyViewController.m; sourceTree = "<group>"; };
+		E53D0F6E1CCFABAF00A46AF5 /* CompanyViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyViewHelper.h; sourceTree = "<group>"; };
+		E53D0F6F1CCFABAF00A46AF5 /* CompanyViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyViewHelper.m; sourceTree = "<group>"; };
+		E53D0F711CCFAE6F00A46AF5 /* CompanyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyInfo.h; sourceTree = "<group>"; };
+		E53D0F721CCFAE6F00A46AF5 /* CompanyInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyInfo.m; sourceTree = "<group>"; };
+		E53D0F741CD0CB1300A46AF5 /* CompanyInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyInfoCell.h; sourceTree = "<group>"; };
+		E53D0F751CD0CB1300A46AF5 /* CompanyInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyInfoCell.m; sourceTree = "<group>"; };
+		E53D0F781CD0F3E400A46AF5 /* CompanyNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyNewController.h; sourceTree = "<group>"; };
+		E53D0F791CD0F3E400A46AF5 /* CompanyNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyNewController.m; sourceTree = "<group>"; };
+		E53D0F7B1CD0F51A00A46AF5 /* CompanyNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyNew.h; sourceTree = "<group>"; };
+		E53D0F7C1CD0F51A00A46AF5 /* CompanyNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyNew.m; sourceTree = "<group>"; };
+		E53D0F7E1CD0F59E00A46AF5 /* CompanyNewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyNewCell.h; sourceTree = "<group>"; };
+		E53D0F7F1CD0F59E00A46AF5 /* CompanyNewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyNewCell.m; sourceTree = "<group>"; };
+		E53D0F811CD0F7D700A46AF5 /* CompanyNewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyNewHelper.h; sourceTree = "<group>"; };
+		E53D0F821CD0F7D700A46AF5 /* CompanyNewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyNewHelper.m; sourceTree = "<group>"; };
+		E53D0F851CD1A3DF00A46AF5 /* CompanyTrendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyTrendViewController.h; sourceTree = "<group>"; };
+		E53D0F861CD1A3DF00A46AF5 /* CompanyTrendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyTrendViewController.m; sourceTree = "<group>"; };
+		E53D0F881CD1A65E00A46AF5 /* TrendPic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendPic.h; sourceTree = "<group>"; };
+		E53D0F891CD1A65E00A46AF5 /* TrendPic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendPic.m; sourceTree = "<group>"; };
+		E53D0F8B1CD1A76500A46AF5 /* CompanyTrendHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyTrendHelper.h; sourceTree = "<group>"; };
+		E53D0F8C1CD1A76500A46AF5 /* CompanyTrendHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyTrendHelper.m; sourceTree = "<group>"; };
+		E53D0F911CD1A90C00A46AF5 /* TrendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendCell.h; sourceTree = "<group>"; };
+		E53D0F921CD1A90C00A46AF5 /* TrendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendCell.m; sourceTree = "<group>"; };
+		E53D0F951CD1B02600A46AF5 /* CompanyMarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyMarkViewController.h; sourceTree = "<group>"; };
+		E53D0F961CD1B02600A46AF5 /* CompanyMarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyMarkViewController.m; sourceTree = "<group>"; };
+		E53D0F981CD1B73100A46AF5 /* ButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonCell.h; sourceTree = "<group>"; };
+		E53D0F991CD1B73100A46AF5 /* ButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonCell.m; sourceTree = "<group>"; };
+		E53D0F9B1CD1E20C00A46AF5 /* ContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentCell.h; sourceTree = "<group>"; };
+		E53D0F9C1CD1E20C00A46AF5 /* ContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentCell.m; sourceTree = "<group>"; };
+		E53D0F9E1CD1E23700A46AF5 /* ContentCellHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentCellHelper.h; sourceTree = "<group>"; };
+		E53D0F9F1CD1E23700A46AF5 /* ContentCellHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentCellHelper.m; sourceTree = "<group>"; };
+		E53D0FA11CD1E27F00A46AF5 /* ContentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentItem.h; sourceTree = "<group>"; };
+		E53D0FA21CD1E27F00A46AF5 /* ContentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentItem.m; sourceTree = "<group>"; };
+		E53D0FA51CD1F74400A46AF5 /* NewMarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMarkViewController.h; sourceTree = "<group>"; };
+		E53D0FA61CD1F74400A46AF5 /* NewMarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMarkViewController.m; sourceTree = "<group>"; };
+		E53D0FAC1CD2389400A46AF5 /* StarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRatingView.h; sourceTree = "<group>"; };
+		E53D0FAD1CD2389400A46AF5 /* StarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRatingView.m; sourceTree = "<group>"; };
+		E53D0FB01CD2EB0A00A46AF5 /* ShareExperienceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareExperienceViewController.h; sourceTree = "<group>"; };
+		E53D0FB11CD2EB0A00A46AF5 /* ShareExperienceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareExperienceViewController.m; sourceTree = "<group>"; };
+		E53D0FB31CD2F02800A46AF5 /* ShareExperienceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareExperienceCell.h; sourceTree = "<group>"; };
+		E53D0FB41CD2F02800A46AF5 /* ShareExperienceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareExperienceCell.m; sourceTree = "<group>"; };
+		E53D0FB61CD301B400A46AF5 /* ShareExperienceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareExperienceItem.h; sourceTree = "<group>"; };
+		E53D0FB71CD301B400A46AF5 /* ShareExperienceItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareExperienceItem.m; sourceTree = "<group>"; };
+		E53D0FB91CD3081000A46AF5 /* ShareExperienceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareExperienceHelper.h; sourceTree = "<group>"; };
+		E53D0FBA1CD3081000A46AF5 /* ShareExperienceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareExperienceHelper.m; sourceTree = "<group>"; };
+		E53D0FBC1CD32E6600A46AF5 /* NewShareExperienceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewShareExperienceViewController.h; sourceTree = "<group>"; };
+		E53D0FBD1CD32E6600A46AF5 /* NewShareExperienceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewShareExperienceViewController.m; sourceTree = "<group>"; };
+		E53D0FBF1CD397B900A46AF5 /* UIViewLinkmanTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewLinkmanTouch.h; sourceTree = "<group>"; };
+		E53D0FC01CD397B900A46AF5 /* UIViewLinkmanTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewLinkmanTouch.m; sourceTree = "<group>"; };
+		E53D0FC21CD39B2300A46AF5 /* ShareDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareDetailViewController.h; sourceTree = "<group>"; };
+		E53D0FC31CD39B2300A46AF5 /* ShareDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareDetailViewController.m; sourceTree = "<group>"; };
+		E53D0FC51CD45EF800A46AF5 /* JobCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobCircleViewController.h; sourceTree = "<group>"; };
+		E53D0FC61CD45EF800A46AF5 /* JobCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobCircleViewController.m; sourceTree = "<group>"; };
+		E53D0FCF1CD48B9100A46AF5 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		E53D0FD01CD48B9100A46AF5 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		E53D0FD31CD492A800A46AF5 /* CircleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleItem.h; sourceTree = "<group>"; };
+		E53D0FD41CD492A800A46AF5 /* CircleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleItem.m; sourceTree = "<group>"; };
+		E53D0FD61CD4944F00A46AF5 /* CircleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleHelper.h; sourceTree = "<group>"; };
+		E53D0FD71CD4944F00A46AF5 /* CircleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleHelper.m; sourceTree = "<group>"; };
+		E53D0FD91CD49F0A00A46AF5 /* CircleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleCell.h; sourceTree = "<group>"; };
+		E53D0FDA1CD49F0A00A46AF5 /* CircleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleCell.m; sourceTree = "<group>"; };
+		E53D0FDD1CD4C13A00A46AF5 /* AttentionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttentionViewController.h; sourceTree = "<group>"; };
+		E53D0FDE1CD4C13A00A46AF5 /* AttentionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttentionViewController.m; sourceTree = "<group>"; };
+		E53D0FE01CD4C2D000A46AF5 /* AttentionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttentionHelper.h; sourceTree = "<group>"; };
+		E53D0FE11CD4C2D000A46AF5 /* AttentionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttentionHelper.m; sourceTree = "<group>"; };
+		E53D0FE41CD4F27A00A46AF5 /* JobSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobSearchViewController.h; sourceTree = "<group>"; };
+		E53D0FE51CD4F27A00A46AF5 /* JobSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobSearchViewController.m; sourceTree = "<group>"; };
+		E53D0FE71CD4F73E00A46AF5 /* ListHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListHelper.h; sourceTree = "<group>"; };
+		E53D0FE81CD4F73E00A46AF5 /* ListHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListHelper.m; sourceTree = "<group>"; };
+		E53D0FEB1CD4F8ED00A46AF5 /* JobList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JobList.json; sourceTree = "<group>"; };
+		E53D0FEE1CD4FC7B00A46AF5 /* Job.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Job.h; sourceTree = "<group>"; };
+		E53D0FEF1CD4FC7B00A46AF5 /* Job.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Job.m; sourceTree = "<group>"; };
+		E53D0FF21CD5987400A46AF5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E53D0FF31CD5987400A46AF5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E53D0FF51CD5A18700A46AF5 /* CommentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentItem.h; sourceTree = "<group>"; };
+		E53D0FF61CD5A18700A46AF5 /* CommentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentItem.m; sourceTree = "<group>"; };
+		E53D0FF81CD5A21600A46AF5 /* CommentHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentHelper.h; sourceTree = "<group>"; };
+		E53D0FF91CD5A21600A46AF5 /* CommentHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentHelper.m; sourceTree = "<group>"; };
+		E53D0FFB1CD5A36000A46AF5 /* CommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCell.h; sourceTree = "<group>"; };
+		E53D0FFC1CD5A36000A46AF5 /* CommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentCell.m; sourceTree = "<group>"; };
+		E53D0FFE1CD5AB7700A46AF5 /* DetailContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailContentCell.h; sourceTree = "<group>"; };
+		E53D0FFF1CD5AB7700A46AF5 /* DetailContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailContentCell.m; sourceTree = "<group>"; };
+		E53D100A1CD5E14000A46AF5 /* DetailBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailBaseViewController.h; sourceTree = "<group>"; };
+		E53D100B1CD5E14000A46AF5 /* DetailBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailBaseViewController.m; sourceTree = "<group>"; };
+		E53D100E1CD5F99F00A46AF5 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		E53D100F1CD5F99F00A46AF5 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		E53D10111CD5F9DB00A46AF5 /* CollectionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionHelper.h; sourceTree = "<group>"; };
+		E53D10121CD5F9DB00A46AF5 /* CollectionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionHelper.m; sourceTree = "<group>"; };
+		E53D10151CD5FCD200A46AF5 /* TieziViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TieziViewController.h; path = MineViews/TieziViewController.h; sourceTree = "<group>"; };
+		E53D10161CD5FCD200A46AF5 /* TieziViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TieziViewController.m; path = MineViews/TieziViewController.m; sourceTree = "<group>"; };
+		E53D10181CD5FCFD00A46AF5 /* TieziHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TieziHelper.h; sourceTree = "<group>"; };
+		E53D10191CD5FCFD00A46AF5 /* TieziHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TieziHelper.m; sourceTree = "<group>"; };
+		E53D101F1CD606B600A46AF5 /* MessageNotifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageNotifyViewController.h; sourceTree = "<group>"; };
+		E53D10201CD606B600A46AF5 /* MessageNotifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageNotifyViewController.m; sourceTree = "<group>"; };
+		E53D10221CD606DB00A46AF5 /* MessageNotifyHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageNotifyHelper.h; sourceTree = "<group>"; };
+		E53D10231CD606DB00A46AF5 /* MessageNotifyHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageNotifyHelper.m; sourceTree = "<group>"; };
+		E53D10251CD6093000A46AF5 /* SettingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingHelper.h; sourceTree = "<group>"; };
+		E53D10261CD6093000A46AF5 /* SettingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingHelper.m; sourceTree = "<group>"; };
+		E53D10291CD60B4600A46AF5 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		E53D102A1CD60B4600A46AF5 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		E53D10301CD6106800A46AF5 /* NewTieziViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTieziViewController.h; sourceTree = "<group>"; };
+		E53D10311CD6106800A46AF5 /* NewTieziViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTieziViewController.m; sourceTree = "<group>"; };
+		E53D10341CD61FAE00A46AF5 /* TLMomentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMomentsViewController.h; sourceTree = "<group>"; };
+		E53D10351CD61FAE00A46AF5 /* TLMomentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMomentsViewController.m; sourceTree = "<group>"; };
+		E53D10371CD61FF600A46AF5 /* TLMomentsViewController+TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TLMomentsViewController+TableView.h"; sourceTree = "<group>"; };
+		E53D10381CD61FF600A46AF5 /* TLMomentsViewController+TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TLMomentsViewController+TableView.m"; sourceTree = "<group>"; };
+		E53D103A1CD6202200A46AF5 /* TLMomentsViewController+Proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TLMomentsViewController+Proxy.h"; sourceTree = "<group>"; };
+		E53D103B1CD6202200A46AF5 /* TLMomentsViewController+Proxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TLMomentsViewController+Proxy.m"; sourceTree = "<group>"; };
+		E53D103E1CD6205600A46AF5 /* TLMomentBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMomentBaseCell.h; sourceTree = "<group>"; };
+		E53D103F1CD6205600A46AF5 /* TLMomentBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMomentBaseCell.m; sourceTree = "<group>"; };
+		E53D10411CD6207B00A46AF5 /* TLMomentHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMomentHeaderCell.h; sourceTree = "<group>"; };
+		E53D10421CD6207B00A46AF5 /* TLMomentHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMomentHeaderCell.m; sourceTree = "<group>"; };
+		E53D10441CD620B100A46AF5 /* TLMomentImagesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMomentImagesCell.h; sourceTree = "<group>"; };
+		E53D10451CD620B100A46AF5 /* TLMomentImagesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMomentImagesCell.m; sourceTree = "<group>"; };
+		E53D10481CD620F700A46AF5 /* TLMomentDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMomentDetailViewController.h; sourceTree = "<group>"; };
+		E53D10491CD620F700A46AF5 /* TLMomentDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMomentDetailViewController.m; sourceTree = "<group>"; };
+		E53D104C1CD6216900A46AF5 /* TLMomentBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMomentBaseView.h; sourceTree = "<group>"; };
+		E53D104D1CD6216900A46AF5 /* TLMomentBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMomentBaseView.m; sourceTree = "<group>"; };
+		E53D104F1CD621A400A46AF5 /* TLMomentImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMomentImageView.h; sourceTree = "<group>"; };
+		E53D10501CD621A400A46AF5 /* TLMomentImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMomentImageView.m; sourceTree = "<group>"; };
+		E53D10531CD621F900A46AF5 /* TLMomentMultiImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMomentMultiImageView.h; sourceTree = "<group>"; };
+		E53D10541CD621F900A46AF5 /* TLMomentMultiImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMomentMultiImageView.m; sourceTree = "<group>"; };
+		E53D10561CD6222500A46AF5 /* TLMomentDetailTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMomentDetailTextView.h; sourceTree = "<group>"; };
+		E53D10571CD6222500A46AF5 /* TLMomentDetailTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMomentDetailTextView.m; sourceTree = "<group>"; };
+		E53D10591CD6225500A46AF5 /* TLMomentDetailImagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMomentDetailImagesView.h; sourceTree = "<group>"; };
+		E53D105A1CD6225500A46AF5 /* TLMomentDetailImagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMomentDetailImagesView.m; sourceTree = "<group>"; };
+		E53D105D1CD6229300A46AF5 /* TLMomentExtensionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMomentExtensionView.h; sourceTree = "<group>"; };
+		E53D105E1CD6229300A46AF5 /* TLMomentExtensionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMomentExtensionView.m; sourceTree = "<group>"; };
+		E53D10601CD622E400A46AF5 /* TLMomentExtensionView+TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TLMomentExtensionView+TableView.h"; sourceTree = "<group>"; };
+		E53D10611CD622E400A46AF5 /* TLMomentExtensionView+TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TLMomentExtensionView+TableView.m"; sourceTree = "<group>"; };
+		E53D10631CD6231700A46AF5 /* TLMomentExtensionLikedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMomentExtensionLikedCell.h; sourceTree = "<group>"; };
+		E53D10641CD6231700A46AF5 /* TLMomentExtensionLikedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMomentExtensionLikedCell.m; sourceTree = "<group>"; };
+		E53D10661CD6233A00A46AF5 /* TLMomentExtensionCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMomentExtensionCommentCell.h; sourceTree = "<group>"; };
+		E53D10671CD6233A00A46AF5 /* TLMomentExtensionCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMomentExtensionCommentCell.m; sourceTree = "<group>"; };
+		E53D106A1CD6564F00A46AF5 /* CommentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentBar.h; sourceTree = "<group>"; };
+		E53D106B1CD6564F00A46AF5 /* CommentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentBar.m; sourceTree = "<group>"; };
+		E53D106E1CD6E0A100A46AF5 /* UIView+CLKeyboardOffsetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CLKeyboardOffsetView.h"; sourceTree = "<group>"; };
+		E53D106F1CD6E0A100A46AF5 /* UIView+CLKeyboardOffsetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CLKeyboardOffsetView.m"; sourceTree = "<group>"; };
+		E53D10761CD6EA4D00A46AF5 /* CircleSearchViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleSearchViewcontroller.h; sourceTree = "<group>"; };
+		E53D10771CD6EA4D00A46AF5 /* CircleSearchViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleSearchViewcontroller.m; sourceTree = "<group>"; };
 		E5792F351CC8C5E200AF5BBC /* TLJobViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLJobViewController.h; sourceTree = "<group>"; };
 		E5792F361CC8C5E200AF5BBC /* TLJobViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLJobViewController.m; sourceTree = "<group>"; };
 		E5792F381CC8FF1300AF5BBC /* TLJobViewController+Delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TLJobViewController+Delegate.h"; sourceTree = "<group>"; };
@@ -818,10 +1037,8 @@
 		E5792F651CC9ED4200AF5BBC /* TLBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLBannerCell.m; sourceTree = "<group>"; };
 		E5792F6D1CCA59E800AF5BBC /* TLMineHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMineHeaderView.h; sourceTree = "<group>"; };
 		E5792F6E1CCA59E800AF5BBC /* TLMineHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMineHeaderView.m; sourceTree = "<group>"; };
-		E5792F731CCA72D100AF5BBC /* TLMineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMineTableViewController.h; sourceTree = "<group>"; };
-		E5792F741CCA72D100AF5BBC /* TLMineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMineTableViewController.m; sourceTree = "<group>"; };
-		E5792F761CCA739800AF5BBC /* TLMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMineViewController.h; sourceTree = "<group>"; };
-		E5792F771CCA739800AF5BBC /* TLMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMineViewController.m; sourceTree = "<group>"; };
+		E5792F731CCA72D100AF5BBC /* TLMineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLMineTableViewController.h; path = MineViews/TLMineTableViewController.h; sourceTree = "<group>"; };
+		E5792F741CCA72D100AF5BBC /* TLMineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLMineTableViewController.m; path = MineViews/TLMineTableViewController.m; sourceTree = "<group>"; };
 		E599B79B1CCC537E00692780 /* TLScannerBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLScannerBackgroundView.h; sourceTree = "<group>"; };
 		E599B79C1CCC537E00692780 /* TLScannerBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLScannerBackgroundView.m; sourceTree = "<group>"; };
 		E599B79D1CCC537E00692780 /* TLScannerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLScannerButton.h; sourceTree = "<group>"; };
@@ -838,6 +1055,10 @@
 		E599B7B01CCC5F9100692780 /* UserInfoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoItem.m; sourceTree = "<group>"; };
 		E599B7B81CCCF02400692780 /* ShareHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareHelper.h; sourceTree = "<group>"; };
 		E599B7B91CCCF02400692780 /* ShareHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareHelper.m; sourceTree = "<group>"; };
+		E5BB0D771CD7870F0001FD05 /* PositionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionViewController.h; sourceTree = "<group>"; };
+		E5BB0D781CD7870F0001FD05 /* PositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionViewController.m; sourceTree = "<group>"; };
+		E5BB0D7A1CD7878E0001FD05 /* PositionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionHelper.h; sourceTree = "<group>"; };
+		E5BB0D7B1CD7878E0001FD05 /* PositionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -983,7 +1204,7 @@
 		C2097EE41C52326500163B5C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2097EE31C52326500163B5C /* TLChat.app */,
+				C2097EE31C52326500163B5C /* 校友邦.app */,
 				C2097EFC1C52326500163B5C /* TLChatTests.xctest */,
 				C2097F071C52326500163B5C /* TLChatUITests.xctest */,
 			);
@@ -1093,6 +1314,7 @@
 		C2142E961C531EFD0030B29B /* Proxys */ = {
 			isa = PBXGroup;
 			children = (
+				E53D0FED1CD4FC5A00A46AF5 /* Job */,
 				C2D851561C68D952007DD697 /* Base */,
 				C2B70AAD1C952F92005BECDD /* Root */,
 				C2142EE41C5374DD0030B29B /* Friends */,
@@ -1179,6 +1401,8 @@
 		C2142E9E1C531EFD0030B29B /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				E53D10751CD6EA1800A46AF5 /* CircleSearch */,
+				E53D0FD21CD48C3E00A46AF5 /* JobCircle */,
 				C2D500D61C55C9A20088997C /* DiscoverViewController */,
 				E599B7991CCC537E00692780 /* ScannerViewController */,
 			);
@@ -1202,6 +1426,7 @@
 		C2142EA01C531EFD0030B29B /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				E53D10331CD6190800A46AF5 /* FriendMoment */,
 				C2D500D11C55C9350088997C /* MineViewController */,
 				C2AF1F901C6B209500617D98 /* MineInfoViewController */,
 				C2F0EBF91C7A11230090843C /* ExpressionViewController */,
@@ -1239,10 +1464,15 @@
 		C2142EDB1C5336C30030B29B /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				E53D0FCB1CD4898800A46AF5 /* HMSegmentedControl */,
+				E53D106D1CD6E0A100A46AF5 /* CLKeyboardOffsetView */,
+				E53D0FAB1CD2386700A46AF5 /* StarRatingView */,
 				C2893A741CB03E640080C4BB /* UIUtilities */,
 				C2893A6C1CB03E640080C4BB /* DataUtilities */,
 				C29A7D3B1CB79397008ECA97 /* NetworkUtilities */,
 				E5792F3B1CC9028F00AF5BBC /* SDCycleScrollView */,
+				E53D0FBF1CD397B900A46AF5 /* UIViewLinkmanTouch.h */,
+				E53D0FC01CD397B900A46AF5 /* UIViewLinkmanTouch.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -2057,6 +2287,10 @@
 				C28C44671C883814005975FF /* Shake */,
 				C2B9E42B1C65E6CF00CEBA81 /* TLDiscoverHelper.h */,
 				C2B9E42C1C65E6CF00CEBA81 /* TLDiscoverHelper.m */,
+				E53D0FD61CD4944F00A46AF5 /* CircleHelper.h */,
+				E53D0FD71CD4944F00A46AF5 /* CircleHelper.m */,
+				E53D0FF81CD5A21600A46AF5 /* CommentHelper.h */,
+				E53D0FF91CD5A21600A46AF5 /* CommentHelper.m */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -2070,6 +2304,16 @@
 				C2AF1F9F1C6B603300617D98 /* TLMineInfoHelper.m */,
 				C2D69D891C9271CF00EE91D7 /* TLExpressionHelper.h */,
 				C2D69D8A1C9271CF00EE91D7 /* TLExpressionHelper.m */,
+				E53D0FE01CD4C2D000A46AF5 /* AttentionHelper.h */,
+				E53D0FE11CD4C2D000A46AF5 /* AttentionHelper.m */,
+				E53D10111CD5F9DB00A46AF5 /* CollectionHelper.h */,
+				E53D10121CD5F9DB00A46AF5 /* CollectionHelper.m */,
+				E53D10181CD5FCFD00A46AF5 /* TieziHelper.h */,
+				E53D10191CD5FCFD00A46AF5 /* TieziHelper.m */,
+				E53D10221CD606DB00A46AF5 /* MessageNotifyHelper.h */,
+				E53D10231CD606DB00A46AF5 /* MessageNotifyHelper.m */,
+				E53D10251CD6093000A46AF5 /* SettingHelper.h */,
+				E53D10261CD6093000A46AF5 /* SettingHelper.m */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -2306,9 +2550,14 @@
 		C2D500D11C55C9350088997C /* MineViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E53D10281CD60B2700A46AF5 /* Setting */,
+				E53D101E1CD6067400A46AF5 /* MessageNotify */,
+				E53D10141CD5FCAD00A46AF5 /* TieziView */,
+				E53D100D1CD5F98000A46AF5 /* CollectionView */,
+				E53D0FDC1CD4C11200A46AF5 /* AttentionView */,
 				C2D500D21C55C9350088997C /* MineViews */,
-				E5792F761CCA739800AF5BBC /* TLMineViewController.h */,
-				E5792F771CCA739800AF5BBC /* TLMineViewController.m */,
+				E5792F731CCA72D100AF5BBC /* TLMineTableViewController.h */,
+				E5792F741CCA72D100AF5BBC /* TLMineTableViewController.m */,
 			);
 			path = MineViewController;
 			sourceTree = "<group>";
@@ -2318,8 +2567,6 @@
 			children = (
 				E5792F6D1CCA59E800AF5BBC /* TLMineHeaderView.h */,
 				E5792F6E1CCA59E800AF5BBC /* TLMineHeaderView.m */,
-				E5792F731CCA72D100AF5BBC /* TLMineTableViewController.h */,
-				E5792F741CCA72D100AF5BBC /* TLMineTableViewController.m */,
 			);
 			path = MineViews;
 			sourceTree = "<group>";
@@ -2684,6 +2931,7 @@
 		C2F9F67E1C854F67000EE9ED /* TestData */ = {
 			isa = PBXGroup;
 			children = (
+				E53D0FEA1CD4F8CD00A46AF5 /* Job */,
 				C2FB85D71CB6C29000747B6D /* Moments */,
 				C2F9F67F1C854F77000EE9ED /* Friends */,
 				C209074F1C97EE0000AB87A5 /* JSPatch */,
@@ -2711,15 +2959,342 @@
 		E53D0F541CCE567400A46AF5 /* CompanyView */ = {
 			isa = PBXGroup;
 			children = (
+				E5BB0D761CD786D30001FD05 /* CompanyPosition */,
+				E53D0FAF1CD2EACB00A46AF5 /* ShareExperience */,
+				E53D0FA41CD1F6FA00A46AF5 /* NewMark */,
+				E53D0F941CD1AFF900A46AF5 /* CompanyMark */,
+				E53D0F841CD1A39800A46AF5 /* CompanyTrend */,
+				E53D0F771CD0DE9100A46AF5 /* CompanyNew */,
 				E53D0F581CCE571500A46AF5 /* CompanyListViewController.h */,
 				E53D0F591CCE571500A46AF5 /* CompanyListViewController.m */,
+				E53D0F6B1CCFA02E00A46AF5 /* CompanyViewController.h */,
+				E53D0F6C1CCFA02E00A46AF5 /* CompanyViewController.m */,
+				E53D0F711CCFAE6F00A46AF5 /* CompanyInfo.h */,
+				E53D0F721CCFAE6F00A46AF5 /* CompanyInfo.m */,
+				E53D0F741CD0CB1300A46AF5 /* CompanyInfoCell.h */,
+				E53D0F751CD0CB1300A46AF5 /* CompanyInfoCell.m */,
 			);
 			name = CompanyView;
+			sourceTree = "<group>";
+		};
+		E53D0F5E1CCF9B3E00A46AF5 /* SchoolView */ = {
+			isa = PBXGroup;
+			children = (
+				E53D0F621CCF9B7900A46AF5 /* SchoolListViewController.h */,
+				E53D0F631CCF9B7900A46AF5 /* SchoolListViewController.m */,
+			);
+			name = SchoolView;
+			sourceTree = "<group>";
+		};
+		E53D0F771CD0DE9100A46AF5 /* CompanyNew */ = {
+			isa = PBXGroup;
+			children = (
+				E53D0F781CD0F3E400A46AF5 /* CompanyNewController.h */,
+				E53D0F791CD0F3E400A46AF5 /* CompanyNewController.m */,
+				E53D0F7B1CD0F51A00A46AF5 /* CompanyNew.h */,
+				E53D0F7C1CD0F51A00A46AF5 /* CompanyNew.m */,
+				E53D0F7E1CD0F59E00A46AF5 /* CompanyNewCell.h */,
+				E53D0F7F1CD0F59E00A46AF5 /* CompanyNewCell.m */,
+			);
+			name = CompanyNew;
+			sourceTree = "<group>";
+		};
+		E53D0F841CD1A39800A46AF5 /* CompanyTrend */ = {
+			isa = PBXGroup;
+			children = (
+				E53D0F851CD1A3DF00A46AF5 /* CompanyTrendViewController.h */,
+				E53D0F861CD1A3DF00A46AF5 /* CompanyTrendViewController.m */,
+				E53D0F881CD1A65E00A46AF5 /* TrendPic.h */,
+				E53D0F891CD1A65E00A46AF5 /* TrendPic.m */,
+				E53D0F911CD1A90C00A46AF5 /* TrendCell.h */,
+				E53D0F921CD1A90C00A46AF5 /* TrendCell.m */,
+			);
+			name = CompanyTrend;
+			sourceTree = "<group>";
+		};
+		E53D0F941CD1AFF900A46AF5 /* CompanyMark */ = {
+			isa = PBXGroup;
+			children = (
+				E53D0F951CD1B02600A46AF5 /* CompanyMarkViewController.h */,
+				E53D0F961CD1B02600A46AF5 /* CompanyMarkViewController.m */,
+				E53D0F981CD1B73100A46AF5 /* ButtonCell.h */,
+				E53D0F991CD1B73100A46AF5 /* ButtonCell.m */,
+				E53D0F9B1CD1E20C00A46AF5 /* ContentCell.h */,
+				E53D0F9C1CD1E20C00A46AF5 /* ContentCell.m */,
+				E53D0FA11CD1E27F00A46AF5 /* ContentItem.h */,
+				E53D0FA21CD1E27F00A46AF5 /* ContentItem.m */,
+			);
+			name = CompanyMark;
+			sourceTree = "<group>";
+		};
+		E53D0FA41CD1F6FA00A46AF5 /* NewMark */ = {
+			isa = PBXGroup;
+			children = (
+				E53D0FA51CD1F74400A46AF5 /* NewMarkViewController.h */,
+				E53D0FA61CD1F74400A46AF5 /* NewMarkViewController.m */,
+			);
+			name = NewMark;
+			sourceTree = "<group>";
+		};
+		E53D0FAB1CD2386700A46AF5 /* StarRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				E53D0FAC1CD2389400A46AF5 /* StarRatingView.h */,
+				E53D0FAD1CD2389400A46AF5 /* StarRatingView.m */,
+			);
+			name = StarRatingView;
+			sourceTree = "<group>";
+		};
+		E53D0FAF1CD2EACB00A46AF5 /* ShareExperience */ = {
+			isa = PBXGroup;
+			children = (
+				E53D0FB01CD2EB0A00A46AF5 /* ShareExperienceViewController.h */,
+				E53D0FB11CD2EB0A00A46AF5 /* ShareExperienceViewController.m */,
+				E53D0FB31CD2F02800A46AF5 /* ShareExperienceCell.h */,
+				E53D0FB41CD2F02800A46AF5 /* ShareExperienceCell.m */,
+				E53D0FB61CD301B400A46AF5 /* ShareExperienceItem.h */,
+				E53D0FB71CD301B400A46AF5 /* ShareExperienceItem.m */,
+				E53D0FBC1CD32E6600A46AF5 /* NewShareExperienceViewController.h */,
+				E53D0FBD1CD32E6600A46AF5 /* NewShareExperienceViewController.m */,
+				E53D0FC21CD39B2300A46AF5 /* ShareDetailViewController.h */,
+				E53D0FC31CD39B2300A46AF5 /* ShareDetailViewController.m */,
+			);
+			name = ShareExperience;
+			sourceTree = "<group>";
+		};
+		E53D0FCB1CD4898800A46AF5 /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				E53D0FCF1CD48B9100A46AF5 /* HMSegmentedControl.h */,
+				E53D0FD01CD48B9100A46AF5 /* HMSegmentedControl.m */,
+			);
+			name = HMSegmentedControl;
+			sourceTree = "<group>";
+		};
+		E53D0FD21CD48C3E00A46AF5 /* JobCircle */ = {
+			isa = PBXGroup;
+			children = (
+				E53D0FF11CD5984E00A46AF5 /* DetailViewController */,
+				E53D0FC51CD45EF800A46AF5 /* JobCircleViewController.h */,
+				E53D0FC61CD45EF800A46AF5 /* JobCircleViewController.m */,
+				E53D0FD31CD492A800A46AF5 /* CircleItem.h */,
+				E53D0FD41CD492A800A46AF5 /* CircleItem.m */,
+				E53D0FD91CD49F0A00A46AF5 /* CircleCell.h */,
+				E53D0FDA1CD49F0A00A46AF5 /* CircleCell.m */,
+			);
+			name = JobCircle;
+			sourceTree = "<group>";
+		};
+		E53D0FDC1CD4C11200A46AF5 /* AttentionView */ = {
+			isa = PBXGroup;
+			children = (
+				E53D0FDD1CD4C13A00A46AF5 /* AttentionViewController.h */,
+				E53D0FDE1CD4C13A00A46AF5 /* AttentionViewController.m */,
+			);
+			name = AttentionView;
+			sourceTree = "<group>";
+		};
+		E53D0FE31CD4F24F00A46AF5 /* JobSearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E53D0FE41CD4F27A00A46AF5 /* JobSearchViewController.h */,
+				E53D0FE51CD4F27A00A46AF5 /* JobSearchViewController.m */,
+			);
+			name = JobSearchViewController;
+			sourceTree = "<group>";
+		};
+		E53D0FEA1CD4F8CD00A46AF5 /* Job */ = {
+			isa = PBXGroup;
+			children = (
+				E53D0FEB1CD4F8ED00A46AF5 /* JobList.json */,
+			);
+			name = Job;
+			sourceTree = "<group>";
+		};
+		E53D0FED1CD4FC5A00A46AF5 /* Job */ = {
+			isa = PBXGroup;
+			children = (
+				E53D0FEE1CD4FC7B00A46AF5 /* Job.h */,
+				E53D0FEF1CD4FC7B00A46AF5 /* Job.m */,
+			);
+			name = Job;
+			sourceTree = "<group>";
+		};
+		E53D0FF11CD5984E00A46AF5 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E53D10691CD6563A00A46AF5 /* CommentBar */,
+				E53D102F1CD6104000A46AF5 /* NewTiezi */,
+				E53D0FF21CD5987400A46AF5 /* DetailViewController.h */,
+				E53D0FF31CD5987400A46AF5 /* DetailViewController.m */,
+				E53D0FF51CD5A18700A46AF5 /* CommentItem.h */,
+				E53D0FF61CD5A18700A46AF5 /* CommentItem.m */,
+				E53D0FFB1CD5A36000A46AF5 /* CommentCell.h */,
+				E53D0FFC1CD5A36000A46AF5 /* CommentCell.m */,
+				E53D0FFE1CD5AB7700A46AF5 /* DetailContentCell.h */,
+				E53D0FFF1CD5AB7700A46AF5 /* DetailContentCell.m */,
+				E53D100A1CD5E14000A46AF5 /* DetailBaseViewController.h */,
+				E53D100B1CD5E14000A46AF5 /* DetailBaseViewController.m */,
+			);
+			name = DetailViewController;
+			sourceTree = "<group>";
+		};
+		E53D100D1CD5F98000A46AF5 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				E53D100E1CD5F99F00A46AF5 /* CollectionViewController.h */,
+				E53D100F1CD5F99F00A46AF5 /* CollectionViewController.m */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		E53D10141CD5FCAD00A46AF5 /* TieziView */ = {
+			isa = PBXGroup;
+			children = (
+				E53D10151CD5FCD200A46AF5 /* TieziViewController.h */,
+				E53D10161CD5FCD200A46AF5 /* TieziViewController.m */,
+			);
+			name = TieziView;
+			sourceTree = "<group>";
+		};
+		E53D101E1CD6067400A46AF5 /* MessageNotify */ = {
+			isa = PBXGroup;
+			children = (
+				E53D101F1CD606B600A46AF5 /* MessageNotifyViewController.h */,
+				E53D10201CD606B600A46AF5 /* MessageNotifyViewController.m */,
+			);
+			name = MessageNotify;
+			sourceTree = "<group>";
+		};
+		E53D10281CD60B2700A46AF5 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				E53D10291CD60B4600A46AF5 /* SettingViewController.h */,
+				E53D102A1CD60B4600A46AF5 /* SettingViewController.m */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		E53D102F1CD6104000A46AF5 /* NewTiezi */ = {
+			isa = PBXGroup;
+			children = (
+				E53D10301CD6106800A46AF5 /* NewTieziViewController.h */,
+				E53D10311CD6106800A46AF5 /* NewTieziViewController.m */,
+			);
+			name = NewTiezi;
+			sourceTree = "<group>";
+		};
+		E53D10331CD6190800A46AF5 /* FriendMoment */ = {
+			isa = PBXGroup;
+			children = (
+				E53D104B1CD6211A00A46AF5 /* MomentViews */,
+				E53D10471CD620DB00A46AF5 /* MomentDetailViewController */,
+				E53D103D1CD6203500A46AF5 /* MomentCells */,
+				E53D10341CD61FAE00A46AF5 /* TLMomentsViewController.h */,
+				E53D10351CD61FAE00A46AF5 /* TLMomentsViewController.m */,
+				E53D10371CD61FF600A46AF5 /* TLMomentsViewController+TableView.h */,
+				E53D10381CD61FF600A46AF5 /* TLMomentsViewController+TableView.m */,
+				E53D103A1CD6202200A46AF5 /* TLMomentsViewController+Proxy.h */,
+				E53D103B1CD6202200A46AF5 /* TLMomentsViewController+Proxy.m */,
+			);
+			name = FriendMoment;
+			sourceTree = "<group>";
+		};
+		E53D103D1CD6203500A46AF5 /* MomentCells */ = {
+			isa = PBXGroup;
+			children = (
+				E53D103E1CD6205600A46AF5 /* TLMomentBaseCell.h */,
+				E53D103F1CD6205600A46AF5 /* TLMomentBaseCell.m */,
+				E53D10411CD6207B00A46AF5 /* TLMomentHeaderCell.h */,
+				E53D10421CD6207B00A46AF5 /* TLMomentHeaderCell.m */,
+				E53D10441CD620B100A46AF5 /* TLMomentImagesCell.h */,
+				E53D10451CD620B100A46AF5 /* TLMomentImagesCell.m */,
+			);
+			name = MomentCells;
+			sourceTree = "<group>";
+		};
+		E53D10471CD620DB00A46AF5 /* MomentDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E53D10481CD620F700A46AF5 /* TLMomentDetailViewController.h */,
+				E53D10491CD620F700A46AF5 /* TLMomentDetailViewController.m */,
+			);
+			name = MomentDetailViewController;
+			sourceTree = "<group>";
+		};
+		E53D104B1CD6211A00A46AF5 /* MomentViews */ = {
+			isa = PBXGroup;
+			children = (
+				E53D105C1CD6227900A46AF5 /* MomentExtensionView */,
+				E53D10521CD621C600A46AF5 /* MomentDetailView */,
+				E53D104C1CD6216900A46AF5 /* TLMomentBaseView.h */,
+				E53D104D1CD6216900A46AF5 /* TLMomentBaseView.m */,
+				E53D104F1CD621A400A46AF5 /* TLMomentImageView.h */,
+				E53D10501CD621A400A46AF5 /* TLMomentImageView.m */,
+			);
+			name = MomentViews;
+			sourceTree = "<group>";
+		};
+		E53D10521CD621C600A46AF5 /* MomentDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				E53D10531CD621F900A46AF5 /* TLMomentMultiImageView.h */,
+				E53D10541CD621F900A46AF5 /* TLMomentMultiImageView.m */,
+				E53D10561CD6222500A46AF5 /* TLMomentDetailTextView.h */,
+				E53D10571CD6222500A46AF5 /* TLMomentDetailTextView.m */,
+				E53D10591CD6225500A46AF5 /* TLMomentDetailImagesView.h */,
+				E53D105A1CD6225500A46AF5 /* TLMomentDetailImagesView.m */,
+			);
+			name = MomentDetailView;
+			sourceTree = "<group>";
+		};
+		E53D105C1CD6227900A46AF5 /* MomentExtensionView */ = {
+			isa = PBXGroup;
+			children = (
+				E53D105D1CD6229300A46AF5 /* TLMomentExtensionView.h */,
+				E53D105E1CD6229300A46AF5 /* TLMomentExtensionView.m */,
+				E53D10601CD622E400A46AF5 /* TLMomentExtensionView+TableView.h */,
+				E53D10611CD622E400A46AF5 /* TLMomentExtensionView+TableView.m */,
+				E53D10631CD6231700A46AF5 /* TLMomentExtensionLikedCell.h */,
+				E53D10641CD6231700A46AF5 /* TLMomentExtensionLikedCell.m */,
+				E53D10661CD6233A00A46AF5 /* TLMomentExtensionCommentCell.h */,
+				E53D10671CD6233A00A46AF5 /* TLMomentExtensionCommentCell.m */,
+			);
+			name = MomentExtensionView;
+			sourceTree = "<group>";
+		};
+		E53D10691CD6563A00A46AF5 /* CommentBar */ = {
+			isa = PBXGroup;
+			children = (
+				E53D106A1CD6564F00A46AF5 /* CommentBar.h */,
+				E53D106B1CD6564F00A46AF5 /* CommentBar.m */,
+			);
+			name = CommentBar;
+			sourceTree = "<group>";
+		};
+		E53D106D1CD6E0A100A46AF5 /* CLKeyboardOffsetView */ = {
+			isa = PBXGroup;
+			children = (
+				E53D106E1CD6E0A100A46AF5 /* UIView+CLKeyboardOffsetView.h */,
+				E53D106F1CD6E0A100A46AF5 /* UIView+CLKeyboardOffsetView.m */,
+			);
+			path = CLKeyboardOffsetView;
+			sourceTree = "<group>";
+		};
+		E53D10751CD6EA1800A46AF5 /* CircleSearch */ = {
+			isa = PBXGroup;
+			children = (
+				E53D10761CD6EA4D00A46AF5 /* CircleSearchViewcontroller.h */,
+				E53D10771CD6EA4D00A46AF5 /* CircleSearchViewcontroller.m */,
+			);
+			name = CircleSearch;
 			sourceTree = "<group>";
 		};
 		E5792F341CC8C59C00AF5BBC /* Job */ = {
 			isa = PBXGroup;
 			children = (
+				E53D0FE31CD4F24F00A46AF5 /* JobSearchViewController */,
+				E53D0F5E1CCF9B3E00A46AF5 /* SchoolView */,
 				E53D0F541CCE567400A46AF5 /* CompanyView */,
 				E599B7AB1CCC595400692780 /* ShareView */,
 				E599B7AA1CCC594200692780 /* JobView */,
@@ -2766,6 +3341,22 @@
 				E599B7B91CCCF02400692780 /* ShareHelper.m */,
 				E53D0F5B1CCF618600A46AF5 /* CompanyListHelper.h */,
 				E53D0F5C1CCF618600A46AF5 /* CompanyListHelper.m */,
+				E53D0F651CCF9B9B00A46AF5 /* SchoolListHelper.h */,
+				E53D0F661CCF9B9B00A46AF5 /* SchoolListHelper.m */,
+				E53D0F6E1CCFABAF00A46AF5 /* CompanyViewHelper.h */,
+				E53D0F6F1CCFABAF00A46AF5 /* CompanyViewHelper.m */,
+				E53D0F811CD0F7D700A46AF5 /* CompanyNewHelper.h */,
+				E53D0F821CD0F7D700A46AF5 /* CompanyNewHelper.m */,
+				E53D0F8B1CD1A76500A46AF5 /* CompanyTrendHelper.h */,
+				E53D0F8C1CD1A76500A46AF5 /* CompanyTrendHelper.m */,
+				E53D0F9E1CD1E23700A46AF5 /* ContentCellHelper.h */,
+				E53D0F9F1CD1E23700A46AF5 /* ContentCellHelper.m */,
+				E53D0FB91CD3081000A46AF5 /* ShareExperienceHelper.h */,
+				E53D0FBA1CD3081000A46AF5 /* ShareExperienceHelper.m */,
+				E53D0FE71CD4F73E00A46AF5 /* ListHelper.h */,
+				E53D0FE81CD4F73E00A46AF5 /* ListHelper.m */,
+				E5BB0D7A1CD7878E0001FD05 /* PositionHelper.h */,
+				E5BB0D7B1CD7878E0001FD05 /* PositionHelper.m */,
 			);
 			name = Job;
 			sourceTree = "<group>";
@@ -2832,6 +3423,15 @@
 			name = ShareView;
 			sourceTree = "<group>";
 		};
+		E5BB0D761CD786D30001FD05 /* CompanyPosition */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB0D771CD7870F0001FD05 /* PositionViewController.h */,
+				E5BB0D781CD7870F0001FD05 /* PositionViewController.m */,
+			);
+			name = CompanyPosition;
+			sourceTree = "<group>";
+		};
 		FA349F4CF553F23F8FCC52FF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -2861,7 +3461,7 @@
 			);
 			name = TLChat;
 			productName = TLChat;
-			productReference = C2097EE31C52326500163B5C /* TLChat.app */;
+			productReference = C2097EE31C52326500163B5C /* 校友邦.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C2097EFB1C52326500163B5C /* TLChatTests */ = {
@@ -2911,7 +3511,7 @@
 				TargetAttributes = {
 					C2097EE21C52326500163B5C = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 8ZE6MPGQ6N;
+						DevelopmentTeam = 2GKDM55SZK;
 					};
 					C2097EFB1C52326500163B5C = {
 						CreatedOnToolsVersion = 7.2;
@@ -2959,6 +3559,7 @@
 				C2FB85D91CB6C2B000747B6D /* Moments.json in Resources */,
 				C2CE0BD41C718702006C5C2A /* Chat.xcassets in Resources */,
 				C2142EDA1C53345C0030B29B /* Launch.xcassets in Resources */,
+				E53D0FEC1CD4F8ED00A46AF5 /* JobList.json in Resources */,
 				C20907531C97F15200AB87A5 /* main.js in Resources */,
 				C2A1BBCA1C5753420046CA1C /* Friends.xcassets in Resources */,
 				C2F9F6811C854F94000EE9ED /* FriendList.json in Resources */,
@@ -3038,8 +3639,11 @@
 				C2BF17D51C86DB50003318CB /* UITableView+TLChat.m in Sources */,
 				C2893A7E1CB03E640080C4BB /* TLUIUtility.m in Sources */,
 				C21574101C9BAC4200B7AC67 /* TLImageMessageCell.m in Sources */,
+				E53D0F971CD1B02600A46AF5 /* CompanyMarkViewController.m in Sources */,
 				C2994D8C1CA167CF00BAC038 /* TLUser.m in Sources */,
+				E53D103C1CD6202200A46AF5 /* TLMomentsViewController+Proxy.m in Sources */,
 				C2E294B81C9D268800721405 /* TLChatGroupDetailViewController.m in Sources */,
+				E5BB0D791CD7870F0001FD05 /* PositionViewController.m in Sources */,
 				C2FB85E81CB6CD0600747B6D /* TLMomentComment.m in Sources */,
 				C2CF4C7C1C804BF30054637A /* TLSettingButtonCell.m in Sources */,
 				E599B7A51CCC537E00692780 /* TLScannerBackgroundView.m in Sources */,
@@ -3048,41 +3652,56 @@
 				C21573F81C9BAC4200B7AC67 /* TLChatBaseViewController+UIDelegate.m in Sources */,
 				C2B9E42D1C65E6CF00CEBA81 /* TLDiscoverHelper.m in Sources */,
 				C237E9D81CB244830034CEA2 /* TLExpressionChosenViewController.m in Sources */,
+				E53D10271CD6093000A46AF5 /* SettingHelper.m in Sources */,
+				E53D0FC11CD397B900A46AF5 /* UIViewLinkmanTouch.m in Sources */,
 				C2142EF61C5376D40030B29B /* TLViewController.m in Sources */,
 				C2893A7D1CB03E640080C4BB /* NSString+Message.m in Sources */,
+				E53D0F6D1CCFA02E00A46AF5 /* CompanyViewController.m in Sources */,
 				E599B7A71CCC537E00692780 /* TLScannerView.m in Sources */,
 				C2E6B82C1C9A61190045A6EB /* TLConversationViewController+Delegate.m in Sources */,
 				C2E294A01C9D1DAA00721405 /* TLChatViewController.m in Sources */,
 				E5792F501CC9028F00AF5BBC /* SDCycleScrollView.m in Sources */,
 				E599B7AE1CCC598600692780 /* ShareCell.m in Sources */,
 				C215740B1C9BAC4200B7AC67 /* TLEmojiKeyboard.m in Sources */,
+				E53D0F7A1CD0F3E400A46AF5 /* CompanyNewController.m in Sources */,
 				C215740D1C9BAC4200B7AC67 /* TLMoreKeyboardItem.m in Sources */,
 				C2986D491C9EC08400A74166 /* TLConversation.m in Sources */,
+				E53D104A1CD620F700A46AF5 /* TLMomentDetailViewController.m in Sources */,
+				E53D0FD81CD4944F00A46AF5 /* CircleHelper.m in Sources */,
+				E53D0FE61CD4F27A00A46AF5 /* JobSearchViewController.m in Sources */,
 				C2994D901CA167CF00BAC038 /* TLUserSetting.m in Sources */,
 				C2F0EC151C7AB1BB0090843C /* TLAboutHelper.m in Sources */,
 				C2A5ACB01C8ECF0D007A4574 /* UIView+Extensions.m in Sources */,
 				C2BBAC821CBBC2E600FE4C8F /* TLExpressionDetailCell.m in Sources */,
+				E53D0FF01CD4FC7B00A46AF5 /* Job.m in Sources */,
 				C2232E381C9FA3960010CDF8 /* TLMoreKBHelper.m in Sources */,
+				E53D10461CD620B100A46AF5 /* TLMomentImagesCell.m in Sources */,
+				E53D10131CD5F9DB00A46AF5 /* CollectionHelper.m in Sources */,
 				C2D69D971C92B0FE00EE91D7 /* TLAddMenuItem.m in Sources */,
 				C28C44711C8855CB005975FF /* UIImagePickerController+Fixed.m in Sources */,
 				C2232E371C9FA3960010CDF8 /* TLEmojiKBHelper.m in Sources */,
+				E53D0FD11CD48B9100A46AF5 /* HMSegmentedControl.m in Sources */,
 				C2E6B82B1C9A61190045A6EB /* TLConversationViewController.m in Sources */,
 				C2E2B13E1CB0EE5E006DFAF4 /* TLRegisterViewController.m in Sources */,
 				C2CE0BCB1C717582006C5C2A /* TLMessage.m in Sources */,
 				C2BF17D01C86DB50003318CB /* NSString+PinYin.m in Sources */,
 				C298E3DC1CB95776009A0065 /* TLDBExpressionStore.m in Sources */,
-				E5792F781CCA739800AF5BBC /* TLMineViewController.m in Sources */,
 				C21574001C9BAC4200B7AC67 /* TLEmojiImageItemCell.m in Sources */,
 				C20829171C88113600034998 /* TLImagePickerController.m in Sources */,
 				C2994D8E1CA167CF00BAC038 /* TLUserDetail.m in Sources */,
+				E53D0F9A1CD1B73100A46AF5 /* ButtonCell.m in Sources */,
 				C2F0EC181C7AB6E30090843C /* TLAboutHeaderView.m in Sources */,
 				C2986D551C9F10DE00A74166 /* TLConversation+TLUser.m in Sources */,
 				C2D500DD1C55CA170088997C /* TLRootViewController.m in Sources */,
+				E53D10781CD6EA4D00A46AF5 /* CircleSearchViewcontroller.m in Sources */,
+				E53D0FDB1CD49F0A00A46AF5 /* CircleCell.m in Sources */,
 				C2E294B21C9D264100721405 /* TLChatFileViewController.m in Sources */,
 				C2EBBD681CB7AE2600BDABCC /* TLExpressionPublicViewController.m in Sources */,
 				C2E6B8091C9A5B570045A6EB /* TLGroupCell.m in Sources */,
+				E53D10001CD5AB7700A46AF5 /* DetailContentCell.m in Sources */,
 				C2AF1F931C6B20C400617D98 /* TLMineInfoViewController.m in Sources */,
 				E5792F4B1CC9028F00AF5BBC /* TAAbstractDotView.m in Sources */,
+				E53D0FC71CD45EF800A46AF5 /* JobCircleViewController.m in Sources */,
 				C2D69D911C929AE100EE91D7 /* TLAddMenuView.m in Sources */,
 				C2F0EBF81C7A0DC90090843C /* TLCommonSettingHelper.m in Sources */,
 				C2CF4C9A1C80655D0054637A /* TLInfo.m in Sources */,
@@ -3107,50 +3726,67 @@
 				C2BF17DD1C86E08F003318CB /* NSFileManager+Paths.m in Sources */,
 				C28D207E1C9D616D00145792 /* TLChatBackgroundSettingViewController.m in Sources */,
 				C2E6B7FE1C9A57860045A6EB /* TLContactsSearchViewController.m in Sources */,
+				E53D10431CD6207B00A46AF5 /* TLMomentHeaderCell.m in Sources */,
+				E53D10361CD61FAE00A46AF5 /* TLMomentsViewController.m in Sources */,
 				C2E6B8111C9A5BC50045A6EB /* TLGroupViewController+Delegate.m in Sources */,
 				C2D851591C68D952007DD697 /* TLBaseDataModel.m in Sources */,
 				C2E294CB1C9D27B000721405 /* TLExpressionMessageCell.m in Sources */,
 				C2AF1FA01C6B603300617D98 /* TLMineInfoHelper.m in Sources */,
 				C2CF4C701C802DBD0054637A /* TLFriendDetailViewController.m in Sources */,
 				C2B9730F1C6A52F0004B9B71 /* TLPrivacySettingHelper.m in Sources */,
+				E53D0F761CD0CB1300A46AF5 /* CompanyInfoCell.m in Sources */,
 				C21573FF1C9BAC4200B7AC67 /* TLEmojiFaceItemCell.m in Sources */,
 				C2CF4C851C804BF90054637A /* TLSettingItem.m in Sources */,
+				E53D10211CD606B600A46AF5 /* MessageNotifyViewController.m in Sources */,
 				C2CF4C8B1C804BFE0054637A /* TLSettingFooterTitleView.m in Sources */,
+				E53D10681CD6233A00A46AF5 /* TLMomentExtensionCommentCell.m in Sources */,
+				E53D0FFD1CD5A36000A46AF5 /* CommentCell.m in Sources */,
 				C2BD59DA1C9DB8E600401524 /* TLDBConversationStore.m in Sources */,
+				E53D104E1CD6216900A46AF5 /* TLMomentBaseView.m in Sources */,
 				C28CA6231C9D905600CD6A73 /* UIImage+Size.m in Sources */,
 				C21573FD1C9BAC4200B7AC67 /* TLTextDisplayView.m in Sources */,
 				C2B70AB01C952FCD005BECDD /* TLRootProxy.m in Sources */,
 				C2BF17D21C86DB50003318CB /* UIButton+TLChat.m in Sources */,
 				C2CF4C8C1C804BFE0054637A /* TLSettingHeaderTitleView.m in Sources */,
+				E53D0F8A1CD1A65E00A46AF5 /* TrendPic.m in Sources */,
 				C2994D8F1CA167CF00BAC038 /* TLUserGroup.m in Sources */,
 				C21573F51C9BAC4200B7AC67 /* TLChatBaseViewController+ChatTableViewDelegate.m in Sources */,
 				C2B9E4311C65F53700CEBA81 /* TLMineHelper.m in Sources */,
 				C29A7D461CB79A17008ECA97 /* TLExpressionDetailViewController.m in Sources */,
+				E5BB0D7C1CD7878E0001FD05 /* PositionHelper.m in Sources */,
 				C2232E6E1CA013CB0010CDF8 /* TLChatFontViewController.m in Sources */,
 				C2994D8D1CA167CF00BAC038 /* TLUserChatSetting.m in Sources */,
+				E53D0FF71CD5A18700A46AF5 /* CommentItem.m in Sources */,
 				E5792F4E1CC9028F00AF5BBC /* TAPageControl.m in Sources */,
 				C21573F91C9BAC4200B7AC67 /* TLChatBaseViewController.m in Sources */,
 				E5792F371CC8C5E200AF5BBC /* TLJobViewController.m in Sources */,
 				C2AF1FA81C6B773000617D98 /* TLWebViewController.m in Sources */,
 				C21574031C9BAC4200B7AC67 /* TLEmojiGroupCell.m in Sources */,
+				E53D0F871CD1A3DF00A46AF5 /* CompanyTrendViewController.m in Sources */,
 				C2F0EC1C1C7ABF190090843C /* TLAppHelper.m in Sources */,
 				C2C5A7081CC21339000546ED /* NSString+UrlEncode.m in Sources */,
 				C2DD58E41C58C8CA005419E4 /* TLFriendHelper.m in Sources */,
 				C20DE51A1CAF742000902398 /* TLChatBackgroundSelectViewController+Proxy.m in Sources */,
 				E5792F4F1CC9028F00AF5BBC /* SDCollectionViewCell.m in Sources */,
 				C2BF17D61C86DB50003318CB /* UIView+Frame.m in Sources */,
+				E53D0F801CD0F59E00A46AF5 /* CompanyNewCell.m in Sources */,
 				C2E56FFB1C896233009662AB /* UINavigationItem+Fixed.m in Sources */,
 				C28C445E1C8818FD005975FF /* NSDate+Extension.m in Sources */,
 				C237E9E01CB2B3F40034CEA2 /* TLExpressionSearchViewController.m in Sources */,
+				E53D100C1CD5E14000A46AF5 /* DetailBaseViewController.m in Sources */,
 				C2893A801CB03E640080C4BB /* UIFont+TLChat.m in Sources */,
+				E53D0F9D1CD1E20C00A46AF5 /* ContentCell.m in Sources */,
 				C21574091C9BAC4200B7AC67 /* TLEmojiKeyboard+GroupControlDelegate.m in Sources */,
 				C2CF4C741C804B5A0054637A /* TLInfoViewController.m in Sources */,
+				E53D10241CD606DB00A46AF5 /* MessageNotifyHelper.m in Sources */,
 				C2E294C21C9D26A900721405 /* TLUserGroupCell.m in Sources */,
 				C237E9D51CB2445C0034CEA2 /* TLExpressionCell.m in Sources */,
 				C2CF4C7D1C804BF30054637A /* TLSettingCell.m in Sources */,
 				C2B1ADFA1C917BDF0037DA6B /* TLMyExpressionViewController.m in Sources */,
 				C2D69D941C92B0E300EE91D7 /* TLAddMenuCell.m in Sources */,
+				E53D0F701CCFABAF00A46AF5 /* CompanyViewHelper.m in Sources */,
 				C2B70AB31C953009005BECDD /* TLBaseProxy.m in Sources */,
+				E53D0FC41CD39B2300A46AF5 /* ShareDetailViewController.m in Sources */,
 				C2E294A11C9D1DAA00721405 /* TLChatViewController+Delegate.m in Sources */,
 				C21574041C9BAC4200B7AC67 /* TLEmojiGroupControl.m in Sources */,
 				C2EBBD6B1CB7B13100BDABCC /* TLExpressionPublicViewController+CollectionView.m in Sources */,
@@ -3169,25 +3805,36 @@
 				C2B9E43A1C66451B00CEBA81 /* TLUserHelper.m in Sources */,
 				C274761F1CB6818900C667E6 /* TLMoment.m in Sources */,
 				C21574151C9BAC4200B7AC67 /* TLChatTableViewController.m in Sources */,
+				E53D10511CD621A400A46AF5 /* TLMomentImageView.m in Sources */,
 				C2A5ACA01C8EB07E007A4574 /* TLChatDetailViewController.m in Sources */,
 				C21574071C9BAC4200B7AC67 /* TLEmojiKeyboard+CollectionViewDataSource.m in Sources */,
 				C215740A1C9BAC4200B7AC67 /* TLEmojiKeyboard+Gusture.m in Sources */,
 				C2FE2F3C1CA9733400E5155B /* TLTextMessage.m in Sources */,
+				E53D0FFA1CD5A21600A46AF5 /* CommentHelper.m in Sources */,
 				E599B7A81CCC537E00692780 /* TLScannerViewController.m in Sources */,
 				C2232E2D1C9FA38E0010CDF8 /* TLMessageManager.m in Sources */,
 				C2994D6C1CA1678000BAC038 /* TLGroup.m in Sources */,
+				E53D105F1CD6229300A46AF5 /* TLMomentExtensionView.m in Sources */,
 				C2F0EBFC1C7A11480090843C /* TLExpressionViewController.m in Sources */,
 				C2142EA71C531FA40030B29B /* TLAppDelegate.m in Sources */,
+				E53D0F831CD0F7D700A46AF5 /* CompanyNewHelper.m in Sources */,
+				E53D10171CD5FCD200A46AF5 /* TieziViewController.m in Sources */,
+				E53D102B1CD60B4600A46AF5 /* SettingViewController.m in Sources */,
 				C2B9E4291C65E1BA00CEBA81 /* TLMenuItem.m in Sources */,
 				E5792F4D1CC9028F00AF5BBC /* TADotView.m in Sources */,
+				E53D0FB51CD2F02800A46AF5 /* ShareExperienceCell.m in Sources */,
 				C2D851401C672B65007DD697 /* TLSettingViewController.m in Sources */,
 				C2E6B8151C9A5CEF0045A6EB /* TLTagCell.m in Sources */,
+				E53D0F931CD1A90C00A46AF5 /* TrendCell.m in Sources */,
+				E53D105B1CD6225500A46AF5 /* TLMomentDetailImagesView.m in Sources */,
 				C21573FB1C9BAC4200B7AC67 /* TLEmojiDisplayView.m in Sources */,
 				C2A1BBD71C5784340046CA1C /* TLFriendHeaderView.m in Sources */,
 				C2E6B80E1C9A5B8C0045A6EB /* TLFriendSearchViewController.m in Sources */,
 				C2A5AC8A1C8EA6E2007A4574 /* TLQRCodeViewController.m in Sources */,
+				E53D0FE91CD4F73E00A46AF5 /* ListHelper.m in Sources */,
 				E599B7A61CCC537E00692780 /* TLScannerButton.m in Sources */,
 				C2E56FFE1C897418009662AB /* TLAccountAndSafetyHelper.m in Sources */,
+				E53D0FE21CD4C2D000A46AF5 /* AttentionHelper.m in Sources */,
 				E53D0F5D1CCF618600A46AF5 /* CompanyListHelper.m in Sources */,
 				C2232E2B1C9FA38E0010CDF8 /* TLMessageManager+ConversationRecord.m in Sources */,
 				E5792F511CC9028F00AF5BBC /* UIView+SDExtension.m in Sources */,
@@ -3195,13 +3842,17 @@
 				C2D69D9B1C92D8AE00EE91D7 /* TLAddMenuHelper.m in Sources */,
 				C28C446A1C883827005975FF /* TLShakeHelper.m in Sources */,
 				C2A5ACAA1C8EBE21007A4574 /* TLAddThirdPartFriendCell.m in Sources */,
+				E53D10551CD621F900A46AF5 /* TLMomentMultiImageView.m in Sources */,
 				C2FB85D31CB6C19500747B6D /* TLMomentsProxy.m in Sources */,
 				C2A98BC51C89D57300029AD5 /* TLMyQRCodeViewController.m in Sources */,
+				E53D10581CD6222500A46AF5 /* TLMomentDetailTextView.m in Sources */,
 				C21574131C9BAC4200B7AC67 /* TLTextMessageCell.m in Sources */,
 				C29A7D3F1CB79397008ECA97 /* TLNetworking.m in Sources */,
+				E53D0F7D1CD0F51A00A46AF5 /* CompanyNew.m in Sources */,
 				C2893A7C1CB03E640080C4BB /* NSFileManager+TLChat.m in Sources */,
 				E53D0F501CCDE58100A46AF5 /* ShareCellFooter.m in Sources */,
 				C2994D361CA142DA00BAC038 /* TLDBFriendStore.m in Sources */,
+				E53D0F731CCFAE6F00A46AF5 /* CompanyInfo.m in Sources */,
 				C2028D1E1C8D1D360060E271 /* TLFriendHelper+Detail.m in Sources */,
 				C2E6B81C1C9A5DEC0045A6EB /* TLNewFriendSearchViewController.m in Sources */,
 				C2E6B80A1C9A5B570045A6EB /* TLGroupSearchViewController.m in Sources */,
@@ -3225,32 +3876,46 @@
 				C21574081C9BAC4200B7AC67 /* TLEmojiKeyboard+CollectionViewDelegate.m in Sources */,
 				C209BB741C8F2FD0001C15D2 /* TLAddFriendViewController.m in Sources */,
 				C2B70AA71C951681005BECDD /* TLDBManager.m in Sources */,
+				E53D0FAE1CD2389400A46AF5 /* StarRatingView.m in Sources */,
 				C215740E1C9BAC4200B7AC67 /* TLMoreKeyboard+CollectionViewDelegate.m in Sources */,
 				C2DD839C1C96B3FD00E6300B /* TLMessageFrame.m in Sources */,
 				C2D851601C68ED11007DD697 /* TLNewMessageSettingViewController.m in Sources */,
 				C2142EF31C5376D40030B29B /* TLNavigationController.m in Sources */,
+				E53D0F641CCF9B7900A46AF5 /* SchoolListViewController.m in Sources */,
 				C2FE2F411CA97FFE00E5155B /* TLImageMessage.m in Sources */,
 				C2A1BBC81C5751210046CA1C /* TLFriendCell.m in Sources */,
 				C2E2B13B1CB0EE46006DFAF4 /* TLLoginViewController.m in Sources */,
 				C2E294B11C9D264100721405 /* TLChatFileHeaderView.m in Sources */,
 				C20DE5141CAF6FB600902398 /* TLChatBackgroundSelectViewController.m in Sources */,
+				E53D10701CD6E0A100A46AF5 /* UIView+CLKeyboardOffsetView.m in Sources */,
 				C29C08E31C89CEE400F8EE82 /* UIBarButtonItem+Action.m in Sources */,
+				E53D10321CD6106800A46AF5 /* NewTieziViewController.m in Sources */,
 				C2FE2F441CA9802700E5155B /* TLExpressionMessage.m in Sources */,
+				E53D10391CD61FF600A46AF5 /* TLMomentsViewController+TableView.m in Sources */,
+				E53D0F8D1CD1A76500A46AF5 /* CompanyTrendHelper.m in Sources */,
+				E53D106C1CD6564F00A46AF5 /* CommentBar.m in Sources */,
+				E53D0FBE1CD32E6600A46AF5 /* NewShareExperienceViewController.m in Sources */,
 				C2D69D8B1C9271CF00EE91D7 /* TLExpressionHelper.m in Sources */,
 				C246F1141C6B898A00A5AFB2 /* TLHelpAndFeedbackViewController.m in Sources */,
 				C2893A7F1CB03E640080C4BB /* UIColor+TLChat.m in Sources */,
 				C29A7D3A1CB78989008ECA97 /* TLEmojiGroup.m in Sources */,
+				E53D0FA01CD1E23700A46AF5 /* ContentCellHelper.m in Sources */,
+				E53D0FA71CD1F74400A46AF5 /* NewMarkViewController.m in Sources */,
 				C21573FA1C9BAC4200B7AC67 /* TLChatCellMenuView.m in Sources */,
+				E53D10651CD6231700A46AF5 /* TLMomentExtensionLikedCell.m in Sources */,
 				C2E6B8181C9A5D070045A6EB /* TLTagsViewController+Delegate.m in Sources */,
 				C2E6B7FD1C9A57860045A6EB /* TLContact.m in Sources */,
+				E53D10621CD622E400A46AF5 /* TLMomentExtensionView+TableView.m in Sources */,
 				E5792F6F1CCA59E800AF5BBC /* TLMineHeaderView.m in Sources */,
 				C2232E361C9FA3960010CDF8 /* TLChatDetailHelper.m in Sources */,
 				C29A7D291CB767D6008ECA97 /* TLMomentExtension.m in Sources */,
 				C21573F41C9BAC4200B7AC67 /* TLChatBaseViewController+ChatBarDelegate.m in Sources */,
 				C2E6B7F01C9A51810045A6EB /* TLFriendsViewController+Delegate.m in Sources */,
 				C2B70AA41C95163C005BECDD /* TLDBMessageStore.m in Sources */,
+				E53D0FB81CD301B400A46AF5 /* ShareExperienceItem.m in Sources */,
 				E53D0F5A1CCE571500A46AF5 /* CompanyListViewController.m in Sources */,
 				E5792F5F1CC9C34C00AF5BBC /* TLJobCell.m in Sources */,
+				E53D0FA31CD1E27F00A46AF5 /* ContentItem.m in Sources */,
 				C29A7D4D1CB7A061008ECA97 /* TLExpressionItemCell.m in Sources */,
 				C2142EF41C5376D40030B29B /* TLTabBarController.m in Sources */,
 				C2E8951D1CB1247500F4451E /* TLExpressionProxy.m in Sources */,
@@ -3263,24 +3928,33 @@
 				C271A5021C83FA0B004372D4 /* TLInfoHeaderFooterView.m in Sources */,
 				C20DE51D1CAF7FE300902398 /* TLChatBackgroundSelectCell.m in Sources */,
 				C2EBBD721CB7B3E600BDABCC /* TLExpressionPublicCell.m in Sources */,
+				E53D0FBB1CD3081000A46AF5 /* ShareExperienceHelper.m in Sources */,
 				C2CF4C931C8062CD0054637A /* TLInfoCell.m in Sources */,
 				C2BF17D91C86DCD0003318CB /* UINavigationController+JZExtension.m in Sources */,
+				E53D0F671CCF9B9B00A46AF5 /* SchoolListHelper.m in Sources */,
+				E53D0FF41CD5987400A46AF5 /* DetailViewController.m in Sources */,
+				E53D10401CD6205600A46AF5 /* TLMomentBaseCell.m in Sources */,
 				C2028D2B1C8D2D0C0060E271 /* TLGroupViewController.m in Sources */,
 				C2A5ACAD1C8EC4AD007A4574 /* TLAddThirdPartFriendItem.m in Sources */,
 				C2E6B7FF1C9A57860045A6EB /* TLContactsViewController.m in Sources */,
 				C2893A7B1CB03E640080C4BB /* NSDate+TLChat.m in Sources */,
+				E53D101A1CD5FCFD00A46AF5 /* TieziHelper.m in Sources */,
 				E599B7A91CCC537E00692780 /* TLScanningViewController.m in Sources */,
 				C2AF1FA41C6B708D00617D98 /* TLMineInfoAvatarCell.m in Sources */,
 				C2028D391C8D354E0060E271 /* TLSearchController.m in Sources */,
 				C2F0EBF51C7A0DA80090843C /* TLCommonSettingViewController.m in Sources */,
+				E53D0FDF1CD4C13A00A46AF5 /* AttentionViewController.m in Sources */,
 				C2142F111C53909C0030B29B /* TLTableViewCell.m in Sources */,
 				C28C445F1C8818FD005975FF /* NSDate+Utilities.m in Sources */,
 				C2BF17D31C86DB50003318CB /* UIImage+Color.m in Sources */,
 				C29A7D391CB78989008ECA97 /* TLEmoji.m in Sources */,
 				C2232E2C1C9FA38E0010CDF8 /* TLMessageManager+MessageRecord.m in Sources */,
+				E53D0FB21CD2EB0A00A46AF5 /* ShareExperienceViewController.m in Sources */,
 				C2B9E4211C65DA0900CEBA81 /* TLMenuViewController.m in Sources */,
 				C2E6B7FC1C9A57860045A6EB /* TLContactCell.m in Sources */,
 				C2B70A951C932362005BECDD /* TLMyExpressionCell.m in Sources */,
+				E53D10101CD5F99F00A46AF5 /* CollectionViewController.m in Sources */,
+				E53D0FD51CD492A800A46AF5 /* CircleItem.m in Sources */,
 				C21573F31C9BAC4200B7AC67 /* TLChatBar.m in Sources */,
 				E599B7B11CCC5F9100692780 /* UserInfoItem.m in Sources */,
 			);
@@ -3418,7 +4092,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tripleL.TLChat;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "校友邦";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -3442,7 +4116,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tripleL.TLChat;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "校友邦";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

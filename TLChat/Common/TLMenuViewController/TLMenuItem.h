@@ -37,6 +37,10 @@
  */
 @property (nonatomic, assign) BOOL showRightRedPoint;
 
+@property (nonatomic, strong) NSString *pinyin;
+
+@property (nonatomic, strong) NSString *pinyinInitial;
+
 + (TLMenuItem *) createMenuWithIconPath:(NSString *)iconPath title:(NSString *)title;
 
 @end

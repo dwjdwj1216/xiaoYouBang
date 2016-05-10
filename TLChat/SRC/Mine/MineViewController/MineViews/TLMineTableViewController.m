@@ -11,10 +11,25 @@
 #import "TLMineInfoViewController.h"
 #import "TLExpressionViewController.h"
 #import "TLMineSettingViewController.h"
+#import "TLMineInfoViewController.h"
+#import "AttentionViewController.h"
+#import "CollectionViewController.h"
 #import "TLMineHeaderView.h"
+#import "TieziViewController.h"
+#import "MessageNotifyViewController.h"
+#import "SettingViewController.h"
+#import "TLMomentsViewController.h"
 @interface TLMineTableViewController ()
 
+@property (nonatomic, strong) TLMineHeaderView *mineHeaderView;
 @property (nonatomic, strong) TLMineHelper *mineHelper;
+@property (nonatomic, strong) TieziViewController *tieziVC;
+@property (nonatomic, strong) TLMineInfoViewController *infoVC;
+@property (nonatomic, strong) AttentionViewController *attentionVC;
+@property (nonatomic, strong) CollectionViewController *collectionVC;
+@property (nonatomic, strong) MessageNotifyViewController *messageNotifyVC;
+@property (nonatomic, strong) SettingViewController *settingVC;
+@property (nonatomic, strong) TLMomentsViewController *momentsVC;
 
 @end
 
@@ -22,16 +37,43 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.tableView setFrame:CGRectMake(0, 127.5+66, 375, 500)];
+    [self.navigationItem setTitle:@"我"];
+
     self.mineHelper = [[TLMineHelper alloc] init];
     self.data = self.mineHelper.mineMenuData;
+    
+    self.tableView.tableHeaderView = self.mineHeaderView;
+    UITapGestureRecognizer *tapAttention = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(attentionEvent:)];
+    [tapAttention setNumberOfTapsRequired:1];
+    [self.mineHeaderView.left addGestureRecognizer:tapAttention];
+    
+    UITapGestureRecognizer *tapCollection = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(collectionEvent:)];
+    [tapCollection setNumberOfTapsRequired:1];
+    [self.mineHeaderView.right addGestureRecognizer:tapCollection];
+    
+    UITapGestureRecognizer *tapMore = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(moreEvent:)];
+    [tapMore setNumberOfTapsRequired:1];
+    [self.mineHeaderView.header addGestureRecognizer:tapMore];
+    
 }
-
+-(void)attentionEvent:(UITapGestureRecognizer *)gesture{
+    [self setHidesBottomBarWhenPushed:YES];
+    [self.navigationController pushViewController:self.attentionVC animated:YES];
+    [self setHidesBottomBarWhenPushed:NO];
+    
+}
+-(void)collectionEvent:(UITapGestureRecognizer *)gesture{
+    [self setHidesBottomBarWhenPushed:YES];
+    [self.navigationController pushViewController:self.collectionVC animated:YES];
+    [self setHidesBottomBarWhenPushed:NO];
+}
+-(void)moreEvent:(UITapGestureRecognizer *)gesture{
+    
+    [self setHidesBottomBarWhenPushed:YES];
+    [self.navigationController pushViewController:self.infoVC animated:YES];
+    [self setHidesBottomBarWhenPushed:NO];
+}
 #pragma mark - Delegate -
-
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 1;
-}
 
 //MARK: UITableViewDataSource
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -44,32 +86,85 @@
 {
     return [super tableView:tableView heightForRowAtIndexPath:[NSIndexPath indexPathForRow:indexPath.row inSection:indexPath.section]];
 }
-/*
- - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
- {
- if (indexPath.section == 0) {
- TLMineInfoViewController *mineInfoVC = [[TLMineInfoViewController alloc] init];
- [self setHidesBottomBarWhenPushed:YES];
- [self.navigationController pushViewController:mineInfoVC animated:YES];
- [self setHidesBottomBarWhenPushed:NO];
- [super tableView:tableView didSelectRowAtIndexPath:indexPath];
- return;
- }
- TLMenuItem *item = [self.data[indexPath.section] objectAtIndex:indexPath.row];
- if ([item.title isEqualToString:@"表情"]) {
- TLExpressionViewController *expressionVC = [[TLExpressionViewController alloc] init];
- [self setHidesBottomBarWhenPushed:YES];
- [self.navigationController pushViewController:expressionVC animated:YES];
- [self setHidesBottomBarWhenPushed:NO];
- }
- else if ([item.title isEqualToString:@"设置"]) {
- TLMineSettingViewController *settingVC = [[TLMineSettingViewController alloc] init];
- [self setHidesBottomBarWhenPushed:YES];
- [self.navigationController pushViewController:settingVC animated:YES];
- [self setHidesBottomBarWhenPushed:NO];
- }
- [super tableView:tableView didSelectRowAtIndexPath:indexPath];
- }
- */
 
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    TLMenuItem *item = [self.data[indexPath.section] objectAtIndex:indexPath.row];
+    if ([item.title isEqualToString:@"我的帖子"]) {
+        [self setHidesBottomBarWhenPushed:YES];
+        [self.navigationController pushViewController:self.tieziVC animated:YES];
+        [self setHidesBottomBarWhenPushed:NO];
+    }else if([item.title isEqualToString:@"消息通知"]){
+        [self setHidesBottomBarWhenPushed:YES];
+        [self.navigationController pushViewController:self.messageNotifyVC animated:YES];
+        [self setHidesBottomBarWhenPushed:NO];
+    }else if ([item.title isEqualToString:@"设置"]){
+        [self setHidesBottomBarWhenPushed:YES];
+        [self.navigationController pushViewController:self.settingVC animated:YES];
+        [self setHidesBottomBarWhenPushed:NO];
+    }else if([item.title isEqualToString:@"好友动态"]){
+        [self setHidesBottomBarWhenPushed:YES];
+        [self.navigationController pushViewController:self.momentsVC animated:YES];
+        [self setHidesBottomBarWhenPushed:NO];
+    }
+    [super tableView:tableView didSelectRowAtIndexPath:indexPath];
+}
+
+#pragma mark - Getter
+
+-(TLMomentsViewController *)momentsVC{
+    if (!_momentsVC) {
+        _momentsVC = [[TLMomentsViewController alloc]init];
+    }
+    return _momentsVC;
+}
+
+-(SettingViewController *)settingVC{
+    if (!_settingVC) {
+        _settingVC = [[SettingViewController alloc]init];
+    }
+    return _settingVC;
+}
+
+-(MessageNotifyViewController *)messageNotifyVC{
+    if (!_messageNotifyVC) {
+        _messageNotifyVC = [[MessageNotifyViewController alloc]init];
+    }
+    return _messageNotifyVC;
+}
+
+-(TieziViewController *)tieziVC{
+    if (!_tieziVC) {
+        _tieziVC = [[TieziViewController alloc]init];
+    }
+    return _tieziVC;
+}
+
+-(CollectionViewController *)collectionVC{
+    if (!_collectionVC) {
+        _collectionVC = [[CollectionViewController alloc]init];
+    }
+    return _collectionVC;
+}
+
+-(AttentionViewController *)attentionVC{
+    if (!_attentionVC) {
+        _attentionVC = [[AttentionViewController alloc]init];
+    }
+    return _attentionVC;
+}
+
+-(TLMineHeaderView *)mineHeaderView{
+    if (!_mineHeaderView) {
+        self.mineHeaderView = [[TLMineHeaderView alloc]init];
+    }
+    return _mineHeaderView;
+}
+
+-(TLMineInfoViewController *)infoVC{
+    if (!_infoVC) {
+        self.infoVC = [[TLMineInfoViewController alloc]init];
+    }
+    return _infoVC;
+}
 @end

@@ -21,7 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.navigationItem setTitle:@"个人信息"];
+    [self.navigationItem setTitle:@"个人资料"];
     
     [self.tableView registerClass:[TLMineInfoAvatarCell class] forCellReuseIdentifier:@"TLMineInfoAvatarCell"];
     
@@ -58,7 +58,7 @@
 {
     TLSettingItem *item = [self.data[indexPath.section] objectAtIndex:indexPath.row];
     if ([item.title isEqualToString:@"头像"]) {
-        return 85.0f;
+        return 75.0f;
     }
     return [super tableView:tableView heightForRowAtIndexPath:indexPath];
 }

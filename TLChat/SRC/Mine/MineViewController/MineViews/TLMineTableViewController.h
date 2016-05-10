@@ -7,7 +7,10 @@
 //
 
 #import "TLMenuViewController.h"
+#import "TLUser.h"
 
 @interface TLMineTableViewController : TLMenuViewController
+
+@property (nonatomic, strong) TLUser *user;
 
 @end

@@ -11,8 +11,7 @@
 #import "TLConversationViewController.h"
 #import "TLFriendsViewController.h"
 #import "TLDiscoverViewController.h"
-#import "TLMineViewController.h"
-
+#import "TLMineTableViewController.h"
 static TLRootViewController *rootVC = nil;
 
 @interface TLRootViewController ()
@@ -23,8 +22,7 @@ static TLRootViewController *rootVC = nil;
 @property (nonatomic, strong) TLFriendsViewController *friendsVC;
 @property (nonatomic, strong) TLJobViewController *jobVC;
 @property (nonatomic, strong) TLDiscoverViewController *discoverVC;
-@property (nonatomic, strong) TLMineViewController *mineVC;
-
+@property (nonatomic, strong) TLMineTableViewController *mineTVC;
 @end
 
 @implementation TLRootViewController
@@ -57,7 +55,7 @@ static TLRootViewController *rootVC = nil;
         //TLNavigationController *friendNavC = [[TLNavigationController alloc] initWithRootViewController:self.friendsVC];
         TLNavigationController *jobNavC = [[TLNavigationController alloc]initWithRootViewController:self.jobVC];
         TLNavigationController *discoverNavC = [[TLNavigationController alloc] initWithRootViewController:self.discoverVC];
-        TLNavigationController *mineNavC = [[TLNavigationController alloc] initWithRootViewController:self.mineVC];
+        TLNavigationController *mineNavC = [[TLNavigationController alloc] initWithRootViewController:self.mineTVC];
         _childVCArray = @[convNavC,jobNavC, discoverNavC, mineNavC];
     }
     return _childVCArray;
@@ -86,17 +84,17 @@ static TLRootViewController *rootVC = nil;
     return _jobVC;
 }
 
-/*
--(SegementViewController *)segementVC{
-    if (_segementVC == nil) {
-        _segementVC = [[SegementViewController alloc]init];
-        [_segementVC.tabBarItem setTitle:@"职场"];
-        [_segementVC.tabBarItem setImage:[UIImage imageNamed:@"tabbar_career"]];
-        [_segementVC.tabBarItem setSelectedImage:[UIImage imageNamed:@"tabbar_careerHL"]];
+
+- (TLMineTableViewController *)mineTVC{
+    if (_mineTVC == nil) {
+        _mineTVC = [[TLMineTableViewController alloc]init];
+        [_mineTVC.tabBarItem setTitle:@"我"];
+        [_mineTVC.tabBarItem setImage:[UIImage imageNamed:@"tabbar_me"]];
+        [_mineTVC.tabBarItem setSelectedImage:[UIImage imageNamed:@"tabbar_meHL"]];
     }
-    return _segementVC;
+    return _mineTVC;
 }
-*/
+
 - (TLDiscoverViewController *) discoverVC
 {
     if (_discoverVC == nil) {
@@ -107,7 +105,7 @@ static TLRootViewController *rootVC = nil;
     }
     return _discoverVC;
 }
-
+/*
 - (TLMineViewController *) mineVC
 {
     if (_mineVC == nil) {
@@ -118,5 +116,5 @@ static TLRootViewController *rootVC = nil;
     }
     return _mineVC;
 }
-
+*/
 @end

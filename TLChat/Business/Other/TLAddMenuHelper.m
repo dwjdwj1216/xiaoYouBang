@@ -40,7 +40,7 @@
 {
     switch (type) {
         case TLAddMneuTypeFriends:           // 通讯录
-            return [TLAddMenuItem createWithType:TLAddMneuTypeAddFriend title:@"通讯录" iconPath:@"nav_menu_friends" className:@"TLFriendsViewController"];
+            return [TLAddMenuItem createWithType:TLAddMneuTypeAddFriend title:@"通讯录" iconPath:@"tabbar_contacts" className:@"TLFriendsViewController"];
             break;
         case TLAddMneuTypeGroupChat:        // 群聊
             return  [TLAddMenuItem createWithType:TLAddMneuTypeGroupChat title:@"发起群聊" iconPath:@"nav_menu_groupchat" className:@""];

@@ -86,7 +86,7 @@
         make.top.mas_equalTo(0);
     }];*/
     [self.iconImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(self.header.bottom).mas_offset(40);
+        make.top.mas_equalTo(self.header.mas_bottom).mas_offset(13);
         make.left.mas_equalTo(10);
         make.width.mas_equalTo(42.5);
         make.height.mas_equalTo(42.5);

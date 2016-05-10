@@ -7,7 +7,9 @@
 //
 
 #import "TLMenuViewController.h"
-#import "TLFriendSearchViewController.h"
+#import "CircleSearchViewcontroller.h"
 @interface TLDiscoverViewController : TLMenuViewController < UISearchBarDelegate>
-@property (nonatomic, strong) TLFriendSearchViewController *searchVC;
+
+@property (nonatomic, strong) CircleSearchViewcontroller *searchVC;
+
 @end

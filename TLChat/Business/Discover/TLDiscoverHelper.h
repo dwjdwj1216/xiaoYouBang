@@ -12,4 +12,6 @@
 
 @property (nonatomic, strong) NSMutableArray *discoverMenuData;
 
+@property (nonatomic, strong) NSMutableArray *circleData;
+
 @end

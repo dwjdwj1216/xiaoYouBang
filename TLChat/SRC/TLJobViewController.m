@@ -116,6 +116,13 @@
     return _companyListVC;
 }
 
+-(SchoolListViewController *)schoolListVC{
+    if (!_schoolListVC) {
+        _schoolListVC = [[SchoolListViewController alloc]init];
+    }
+    return _schoolListVC;
+}
+
 -(BannerView *)bannerView{
     if (!_bannerView) {
         CGFloat w = self.view.bounds.size.width;
@@ -136,10 +143,10 @@
     return _searchController;
 }
 
-- (TLFriendSearchViewController *) searchVC
+- (JobSearchViewController *) searchVC
 {
     if (_searchVC == nil) {
-        _searchVC = [[TLFriendSearchViewController alloc] init];
+        _searchVC = [[JobSearchViewController alloc] init];
     }
     return _searchVC;
 }

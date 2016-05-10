@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C2097EE21C52326500163B5C"
-               BuildableName = "TLChat.app"
+               BuildableName = "&#x6821;&#x53cb;&#x90a6;.app"
                BlueprintName = "TLChat"
                ReferencedContainer = "container:TLChat.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C2097EE21C52326500163B5C"
-            BuildableName = "TLChat.app"
+            BuildableName = "&#x6821;&#x53cb;&#x90a6;.app"
             BlueprintName = "TLChat"
             ReferencedContainer = "container:TLChat.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C2097EE21C52326500163B5C"
-            BuildableName = "TLChat.app"
+            BuildableName = "&#x6821;&#x53cb;&#x90a6;.app"
             BlueprintName = "TLChat"
             ReferencedContainer = "container:TLChat.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C2097EE21C52326500163B5C"
-            BuildableName = "TLChat.app"
+            BuildableName = "&#x6821;&#x53cb;&#x90a6;.app"
             BlueprintName = "TLChat"
             ReferencedContainer = "container:TLChat.xcodeproj">
          </BuildableReference>

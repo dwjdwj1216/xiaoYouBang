@@ -145,7 +145,7 @@
 - (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar
 {
     [self.tabBarController.tabBar setHidden:NO];
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:YES];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:YES];
 }
 
 - (void)searchBarBookmarkButtonClicked:(UISearchBar *)searchBar

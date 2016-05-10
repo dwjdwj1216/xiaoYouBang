@@ -41,7 +41,7 @@
         [self.avatarImageView sd_setImageWithURL:TLURL(item.rightImageURL) placeholderImage:[UIImage imageNamed:DEFAULT_AVATAR_PATH]];
     }
     else {
-        [self.avatarImageView setImage:nil];
+        [self.avatarImageView setImage:[UIImage imageNamed:@"tim_avatar"]];
     }
 }
 
@@ -56,9 +56,10 @@
     
     [self.avatarImageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.right.mas_equalTo(self.contentView);
-        make.top.mas_equalTo(self.contentView).mas_offset(9);
-        make.bottom.mas_equalTo(self.contentView).mas_offset(-9);
-        make.width.mas_equalTo(self.avatarImageView.mas_height);
+        make.top.mas_equalTo(self.contentView).mas_offset(13.5);
+        //make.bottom.mas_equalTo(self.contentView).mas_offset(-9);
+        make.width.mas_equalTo(50);
+        make.height.mas_equalTo(50);
     }];
 }
 

@@ -8,15 +8,18 @@
 
 #import "CompanyListViewController.h"
 #import "CompanyListHelper.h"
+#import "CompanyViewController.h"
 @interface CompanyListViewController ()
+
 @property (nonatomic, strong) CompanyListHelper * companyListHelper;
+@property (nonatomic, strong) CompanyViewController *companyVC;
 @end
 
 @implementation CompanyListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.navigationItem setTitle:@"圈子"];
+    [self.navigationItem setTitle:@"企业"];
     
     self.companyListHelper = [[CompanyListHelper alloc] init];
     self.data = self.companyListHelper.CompanyListData;
@@ -24,19 +27,33 @@
 
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    TLMenuItem *item = [self.data[indexPath.section] objectAtIndex:indexPath.row];
+    if ([item.title isEqualToString:@"阿里巴巴"]) {
+        [self setHidesBottomBarWhenPushed:YES];
+        [self.navigationController pushViewController:self.companyVC animated:YES];
+        self.companyVC.companyName = @"阿里巴巴";
+        //[self setHidesBottomBarWhenPushed:NO];
+    }
+    /*
+    else if ([item.title isEqualToString:@"学校"]){
+        [self setHidesBottomBarWhenPushed:YES];
+        [self.navigationController pushViewController:self.schoolListVC animated:YES];
+        [self setHidesBottomBarWhenPushed:NO];
+            
+    }
+    */
+    
 }
 
-/*
-#pragma mark - Navigation
+#pragma mark - Getter
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(CompanyViewController *)companyVC{
+    if (!_companyVC) {
+        _companyVC = [[CompanyViewController alloc]init];
+    }
+    return _companyVC;
 }
-*/
 
 @end

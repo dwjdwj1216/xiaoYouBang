@@ -8,10 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "TLUser.h"
+#import "UIViewLinkmanTouch.h"
 @interface TLMineHeaderView : UIView
 
 @property (nonatomic, strong) TLUser *user;
 
--(TLMineHeaderView *)init;
+@property (nonatomic, strong) UIViewLinkmanTouch *header;
 
+@property (nonatomic, strong) UIViewLinkmanTouch *left;
+
+@property (nonatomic, strong) UIViewLinkmanTouch *right;
+
+@property (nonatomic, strong) UILabel *moreLabel;
+-(TLMineHeaderView *)init;
 @end

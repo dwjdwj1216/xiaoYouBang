@@ -22,7 +22,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     //[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:YES];
-    [self p_initThirdPartSDK];      // 初始化第三方SDK
+    //[self p_initThirdPartSDK];      // 初始化第三方SDK
     [self p_initAppData];           // 初始化应用信息
     [self p_initUserData];          // 初始化用户信息
     [self p_initUI];                // 初始化UI

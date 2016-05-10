@@ -12,6 +12,7 @@
 #import "TLBannerCell.h"
 #import "ShareCell.h"
 #import "BannerView.h"
+#import "ListHelper.h"
 @implementation TLJobViewController (Delegate)
 
 #pragma mark - Public Methods -
@@ -94,6 +95,11 @@
             [self setHidesBottomBarWhenPushed:YES];
             [self.navigationController pushViewController:self.companyListVC animated:YES];
             [self setHidesBottomBarWhenPushed:NO];
+        }else if ([item.title isEqualToString:@"学校"]){
+            [self setHidesBottomBarWhenPushed:YES];
+            [self.navigationController pushViewController:self.schoolListVC animated:YES];
+            [self setHidesBottomBarWhenPushed:NO];
+
         }
 
     }else{
@@ -122,7 +128,7 @@
 //MARK: UISearchBarDelegate
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar
 {
-    [self.searchVC setFriendsData:[TLFriendHelper sharedFriendHelper].friendsData];
+    [self.searchVC setListData:[[ListHelper alloc]init].data];
     
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:YES];
     
@@ -136,7 +142,7 @@
 - (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar
 {
     [self.tabBarController.tabBar setHidden:NO];
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:YES];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:YES];
 }
 
 - (void)searchBarBookmarkButtonClicked:(UISearchBar *)searchBar

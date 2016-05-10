@@ -8,8 +8,9 @@
 
 #import "TLTableViewController.h"
 #import "TLMessageManager+ConversationRecord.h"
-#import "TLFriendSearchViewController.h"
+#import "JobSearchViewController.h"
 #import "CompanyListViewController.h"
+#import "SchoolListViewController.h"
 #import "BannerView.h"
 #import "ShareHelper.h"
 #import "TLJobHelper.h"
@@ -20,8 +21,8 @@
 @property (nonatomic, strong) UISegmentedControl *uiSC;
 
 @property (nonatomic, strong) CompanyListViewController *companyListVC;
-
-@property (nonatomic, strong) TLFriendSearchViewController *searchVC;
+@property (nonatomic, strong) SchoolListViewController *schoolListVC;
+@property (nonatomic, strong) JobSearchViewController *searchVC;
 
 @property (nonatomic,strong) ShareHelper *shareHelper;
 
