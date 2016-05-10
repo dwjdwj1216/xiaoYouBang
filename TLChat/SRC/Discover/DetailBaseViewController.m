@@ -41,6 +41,7 @@
 -(void)viewDidDisappear:(BOOL)animated{
     [super viewDidDisappear:animated];
     [self.view closeKeyboardOffsetView];
+    [self.content resignFirstResponder];
 }
 
 -(void)dismissKeyboard {
